@@ -14,11 +14,15 @@
 
 #ifndef INC_2048_TEST_H
 #define INC_2048_TEST_H
-#include "delay.h"
-#include <mooncake.h>
-using namespace MOONCAKE;
-int btn_value = 0;
 
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+/*______________________类的声明在这下面________________:*/
 
+#ifdef __cplusplus
+}
+#endif
 
 #endif //INC_2048_TEST_H

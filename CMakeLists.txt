@@ -50,18 +50,36 @@ else ()
 endif ()
 
 include_directories(Core/Inc Drivers/STM32F4xx_HAL_Driver/Inc Drivers/STM32F4xx_HAL_Driver/Inc/Legacy Drivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/CMSIS/Include
-        Bridge
-        Task
-        BSP/LCD
-        BSP/SYSTEM
-        BSP/Touch
+        BSPtest
+
+        SourceCode/Bridge
+        SourceCode/data
+        SourceCode/main
+
+        FreeRTOSTask
+
+        Drivers/BSP/LCD
+        Drivers/BSP/SYSTEM
+        Drivers/BSP/Touch
+#        Drivers/BSP/NORFLASH
+#        Drivers/BSP/SDIO
+#        Drivers/BSP/SPI
+
+        FATFS/App
+        FATFS/Target
+
+
+        Middlewares/Third_Party/FatFs/src
+        Middlewares/Third_Party/FreeRTOS/Source/include
+        Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS
+        Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F
 
         Myapplication
         Myapplication/GAME2048
 
-        Serial/BaseLib
-        Serial/DataStream
-        Serial/OtherLib
+        MiddleDevice/MyMiddleDevice/Serial/BaseLib
+        MiddleDevice/MyMiddleDevice/Serial/DataStream
+        MiddleDevice/MyMiddleDevice/Serial/OtherLib
         MiddleDevice/LVGL
         MiddleDevice/LVGL/src
         MiddleDevice/LVGL/examples/porting
@@ -74,9 +92,9 @@ include_directories(Core/Inc Drivers/STM32F4xx_HAL_Driver/Inc Drivers/STM32F4xx_
         MiddleDevice/mooncake/input_system
         MiddleDevice/mooncake/simplekv
 
-        MIddleware/FreeRTOS
-        MIddleware/FreeRTOS/include
-        MIddleware/FreeRTOS/portable/GCC/ARM_CM4F
+#        MiddleDevice/FreeRTOS
+#        MiddleDevice/FreeRTOS/include
+#        MiddleDevice/FreeRTOS/portable/GCC/ARM_CM4F
 
 
 )
@@ -84,18 +102,36 @@ include_directories(Core/Inc Drivers/STM32F4xx_HAL_Driver/Inc Drivers/STM32F4xx_
 add_definitions(-DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx)
 
 file(GLOB_RECURSE SOURCES "Core/*.*" "Drivers/*.*"
-        "Bridge/*.*"
-        "Task/*.*"
-        "BSP/Touch/*.*"
-        "BSP/LCD/lcd.c"
-        "BSP/SYSTEM/*.*"
+        "BSPtest/*.*"
+
+        "SourceCode/Bridge/*.*"
+        "SourceCode/data/*.*"
+        "SourceCode/main/*.*"
+        "FreeRTOSTask/*.*"
+
+        "Drivers/BSP/LCD/*.*"
+        "Drivers/BSP/SYSTEM/*.*"
+        "Drivers/BSP/Touch/*.*"
+#        "Drivers/BSP/NORFLASH/*.*"
+#        "Drivers/BSP/SDIO/*.*"
+#        "Drivers/BSP/SPI/*.*"
+
+        "FATFS/App/*.*"
+        "FATFS/Target/*.*"
+
+        "Middlewares/Third_Party/FatFs/src/*.*"
+        "Middlewares/Third_Party/FatFs/src/option/*.*"
+        "Middlewares/Third_Party/FreeRTOS/Source/*.*"
+        "Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/*.*"
+        "Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/*.*"
+
 
         "Myapplication/GAME2048/*.*"
         "Myapplication/*.*"
 
-        "MIddleware/FreeRTOS/*.*"
-        "MIddleware/FreeRTOS/include/*.*"
-        "MIddleware/FreeRTOS/portable/GCC/ARM_CM4F/*.*"
+#        "MiddleDevice/FreeRTOS/*.*"
+#        "MiddleDevice/FreeRTOS/include/*.*"
+#        "MiddleDevice/FreeRTOS/portable/GCC/ARM_CM4F/*.*"
 
 
         "MiddleDevice/boot_anim_ascii/boot_anim_ascii.cpp"
@@ -103,9 +139,9 @@ file(GLOB_RECURSE SOURCES "Core/*.*" "Drivers/*.*"
         "MiddleDevice/mooncake/app/*.*"
         "MiddleDevice/mooncake/input_system/*.*"
 
-        "Serial/BaseLib/*.*"
-        "Serial/DataStream/*.*"
-        "Serial/OtherLib/*.*"
+        "MiddleDevice/MyMiddleDevice/Serial/BaseLib/*.*"
+        "MiddleDevice/MyMiddleDevice/Serial/DataStream/*.*"
+        "MiddleDevice/MyMiddleDevice/Serial/OtherLib/*.*"
 
         "MiddleDevice/LVGL/*.*"
         "MiddleDevice/LVGL/src/*.*"

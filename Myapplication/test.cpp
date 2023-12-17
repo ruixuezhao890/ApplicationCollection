@@ -15,8 +15,13 @@
 #include "test.h"
 #include "FreeRTOS.h"
 #include "task.h"
-#include "MyUsart.h"
+//
 #include "LVGLINC.h"
+#include "delay.h"
+#include <mooncake.h>
+#include "MyUsart.h"
+using namespace MOONCAKE;
+int btn_value = 0;
 using namespace lvgl::core;
 using namespace lvgl::widgets;
 Mooncake mooncake;
@@ -161,7 +166,7 @@ public:
 };
 
 
-void APPManagerUpData(void *pvParameters){
+ extern "C" void APPManagerUpData() {
     mooncake.init();
     mooncake.installApp(new AppExample_packer);
 //
@@ -174,6 +179,6 @@ void APPManagerUpData(void *pvParameters){
     while (1){
 //        HAL_GPIO_TogglePin(GPIOF,GPIO_PIN_9);
         mooncake.update();
-        vTaskDelay(2);
+        vTaskDelay(5);
     }
 }
