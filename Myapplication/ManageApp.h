@@ -15,6 +15,8 @@
 #ifndef INC_2048_MANAGEAPP_H
 #define INC_2048_MANAGEAPP_H
 #include <mooncake.h>
+#define StatusbarWidth  480
+#define StatusbarHigh   50
 using namespace MOONCAKE;
 #ifdef __cplusplus
 extern "C"

@@ -20,6 +20,6 @@ This warning is for project developers.  Use -Wno-dev to suppress it.
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
 -- Minimal optimization, debug info included
--- Configuring done (2.8s)
+-- Configuring done (3.7s)
 -- Generating done (0.2s)
 -- Build files have been written to: D:/CODE/STM32/Myapplication/cmake-build-debug

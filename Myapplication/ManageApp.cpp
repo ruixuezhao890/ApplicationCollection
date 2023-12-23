@@ -18,6 +18,10 @@
 #include "Game2048_paker.h"
 #include "Game2048APP.h"
 Mooncake mooncake;
+static void DrawStatusbar(){
+
+}
+
  extern "C" void APPManagerUpData() {
     mooncake.init();
     Game2048APP::m_APPHandle=mooncake.createApp(new Game2048_paker("2048", nullptr));

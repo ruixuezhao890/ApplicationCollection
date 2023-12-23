@@ -46,7 +46,7 @@ void Game2048APP::onRunning() {
 
 void Game2048APP::onRunningBG() {
 
-    if ((HAL_GetTick() - ticks) > 1000) {
+    if ((HAL_GetTick() - ticks) > 4000) {
         printf("[%s] onRunningBG\n", getAppName().c_str());
         ticks = HAL_GetTick();
     }
@@ -102,7 +102,8 @@ void Game2048APP::DrawTheStartIcon() {
 void Game2048APP::DrawTheStopIcon() {
     auto getNowScreen=lv_scr_act();
     lv_obj_clean(getNowScreen);
-    if(btn&&label){  delete label;
+    if(btn&&label){
+        delete label;
         delete btn;
 
         btn= nullptr;
