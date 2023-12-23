@@ -1,11 +1,25 @@
-"D:\CLion\CLion 2022.2.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=D:/CLion/CLion 2022.2.3/bin/ninja/win/x64/ninja.exe" -G Ninja -S D:\CODE\STM32\Myapplication -B D:\CODE\STM32\Myapplication\cmake-build-debug
+"D:\CLion\CLion 2022.2.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=D:/MinGw8.1/mingw64/bin/mingw32-make.exe -DCMAKE_C_COMPILER=D:/MinGw8.1/mingw64/bin/gcc.exe -DCMAKE_CXX_COMPILER=D:/MinGw8.1/mingw64/bin/g++.exe -G "CodeBlocks - MinGW Makefiles" -S D:\CODE\STM32\Myapplication -B D:\CODE\STM32\Myapplication\cmake-build-debug
 CMake Warning (dev) at CMakeLists.txt:188:
   Syntax Warning in cmake code at column 62
 
   Argument not separated from preceding token by whitespace.
 This warning is for project developers.  Use -Wno-dev to suppress it.
 
+-- The C compiler identification is GNU 10.3.1
+-- The CXX compiler identification is GNU 10.3.1
+-- The ASM compiler identification is GNU
+-- Found assembler: D:/ProgramFiles/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: D:/ProgramFiles/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: D:/ProgramFiles/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-g++.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
 -- Minimal optimization, debug info included
--- Configuring done (0.1s)
--- Generating done (0.1s)
+-- Configuring done (2.8s)
+-- Generating done (0.2s)
 -- Build files have been written to: D:/CODE/STM32/Myapplication/cmake-build-debug

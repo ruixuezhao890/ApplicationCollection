@@ -15,6 +15,7 @@
 #ifndef INC_2048_LVGLINC_H
 #define INC_2048_LVGLINC_H
 #include "misc/lv_timer.h"
+#include "lvglpp/misc/color.h" // for colors
 #include "lvglpp/core/display.h" // for scr_act()
 #include "lvglpp/widgets/button/button.h" // for Button
 #include "lvglpp/widgets/label/label.h" // for Label

@@ -128,245 +128,29 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/build
 .PHONY : 2048.elf/fast
 
-BSP/LCD/lcd.obj: BSP/LCD/lcd.c.obj
-.PHONY : BSP/LCD/lcd.obj
+BSPtest/SDtest.obj: BSPtest/SDtest.cpp.obj
+.PHONY : BSPtest/SDtest.obj
 
 # target to build an object file
-BSP/LCD/lcd.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/BSP/LCD/lcd.c.obj
-.PHONY : BSP/LCD/lcd.c.obj
+BSPtest/SDtest.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/BSPtest/SDtest.cpp.obj
+.PHONY : BSPtest/SDtest.cpp.obj
 
-BSP/LCD/lcd.i: BSP/LCD/lcd.c.i
-.PHONY : BSP/LCD/lcd.i
-
-# target to preprocess a source file
-BSP/LCD/lcd.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/BSP/LCD/lcd.c.i
-.PHONY : BSP/LCD/lcd.c.i
-
-BSP/LCD/lcd.s: BSP/LCD/lcd.c.s
-.PHONY : BSP/LCD/lcd.s
-
-# target to generate assembly for a file
-BSP/LCD/lcd.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/BSP/LCD/lcd.c.s
-.PHONY : BSP/LCD/lcd.c.s
-
-BSP/SYSTEM/delay.obj: BSP/SYSTEM/delay.c.obj
-.PHONY : BSP/SYSTEM/delay.obj
-
-# target to build an object file
-BSP/SYSTEM/delay.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/BSP/SYSTEM/delay.c.obj
-.PHONY : BSP/SYSTEM/delay.c.obj
-
-BSP/SYSTEM/delay.i: BSP/SYSTEM/delay.c.i
-.PHONY : BSP/SYSTEM/delay.i
+BSPtest/SDtest.i: BSPtest/SDtest.cpp.i
+.PHONY : BSPtest/SDtest.i
 
 # target to preprocess a source file
-BSP/SYSTEM/delay.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/BSP/SYSTEM/delay.c.i
-.PHONY : BSP/SYSTEM/delay.c.i
+BSPtest/SDtest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/BSPtest/SDtest.cpp.i
+.PHONY : BSPtest/SDtest.cpp.i
 
-BSP/SYSTEM/delay.s: BSP/SYSTEM/delay.c.s
-.PHONY : BSP/SYSTEM/delay.s
-
-# target to generate assembly for a file
-BSP/SYSTEM/delay.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/BSP/SYSTEM/delay.c.s
-.PHONY : BSP/SYSTEM/delay.c.s
-
-BSP/SYSTEM/sys.obj: BSP/SYSTEM/sys.c.obj
-.PHONY : BSP/SYSTEM/sys.obj
-
-# target to build an object file
-BSP/SYSTEM/sys.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/BSP/SYSTEM/sys.c.obj
-.PHONY : BSP/SYSTEM/sys.c.obj
-
-BSP/SYSTEM/sys.i: BSP/SYSTEM/sys.c.i
-.PHONY : BSP/SYSTEM/sys.i
-
-# target to preprocess a source file
-BSP/SYSTEM/sys.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/BSP/SYSTEM/sys.c.i
-.PHONY : BSP/SYSTEM/sys.c.i
-
-BSP/SYSTEM/sys.s: BSP/SYSTEM/sys.c.s
-.PHONY : BSP/SYSTEM/sys.s
+BSPtest/SDtest.s: BSPtest/SDtest.cpp.s
+.PHONY : BSPtest/SDtest.s
 
 # target to generate assembly for a file
-BSP/SYSTEM/sys.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/BSP/SYSTEM/sys.c.s
-.PHONY : BSP/SYSTEM/sys.c.s
-
-BSP/Touch/24cxx.obj: BSP/Touch/24cxx.c.obj
-.PHONY : BSP/Touch/24cxx.obj
-
-# target to build an object file
-BSP/Touch/24cxx.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/BSP/Touch/24cxx.c.obj
-.PHONY : BSP/Touch/24cxx.c.obj
-
-BSP/Touch/24cxx.i: BSP/Touch/24cxx.c.i
-.PHONY : BSP/Touch/24cxx.i
-
-# target to preprocess a source file
-BSP/Touch/24cxx.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/BSP/Touch/24cxx.c.i
-.PHONY : BSP/Touch/24cxx.c.i
-
-BSP/Touch/24cxx.s: BSP/Touch/24cxx.c.s
-.PHONY : BSP/Touch/24cxx.s
-
-# target to generate assembly for a file
-BSP/Touch/24cxx.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/BSP/Touch/24cxx.c.s
-.PHONY : BSP/Touch/24cxx.c.s
-
-BSP/Touch/ctiic.obj: BSP/Touch/ctiic.c.obj
-.PHONY : BSP/Touch/ctiic.obj
-
-# target to build an object file
-BSP/Touch/ctiic.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/BSP/Touch/ctiic.c.obj
-.PHONY : BSP/Touch/ctiic.c.obj
-
-BSP/Touch/ctiic.i: BSP/Touch/ctiic.c.i
-.PHONY : BSP/Touch/ctiic.i
-
-# target to preprocess a source file
-BSP/Touch/ctiic.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/BSP/Touch/ctiic.c.i
-.PHONY : BSP/Touch/ctiic.c.i
-
-BSP/Touch/ctiic.s: BSP/Touch/ctiic.c.s
-.PHONY : BSP/Touch/ctiic.s
-
-# target to generate assembly for a file
-BSP/Touch/ctiic.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/BSP/Touch/ctiic.c.s
-.PHONY : BSP/Touch/ctiic.c.s
-
-BSP/Touch/ft5206.obj: BSP/Touch/ft5206.c.obj
-.PHONY : BSP/Touch/ft5206.obj
-
-# target to build an object file
-BSP/Touch/ft5206.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/BSP/Touch/ft5206.c.obj
-.PHONY : BSP/Touch/ft5206.c.obj
-
-BSP/Touch/ft5206.i: BSP/Touch/ft5206.c.i
-.PHONY : BSP/Touch/ft5206.i
-
-# target to preprocess a source file
-BSP/Touch/ft5206.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/BSP/Touch/ft5206.c.i
-.PHONY : BSP/Touch/ft5206.c.i
-
-BSP/Touch/ft5206.s: BSP/Touch/ft5206.c.s
-.PHONY : BSP/Touch/ft5206.s
-
-# target to generate assembly for a file
-BSP/Touch/ft5206.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/BSP/Touch/ft5206.c.s
-.PHONY : BSP/Touch/ft5206.c.s
-
-BSP/Touch/gt9xxx.obj: BSP/Touch/gt9xxx.c.obj
-.PHONY : BSP/Touch/gt9xxx.obj
-
-# target to build an object file
-BSP/Touch/gt9xxx.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/BSP/Touch/gt9xxx.c.obj
-.PHONY : BSP/Touch/gt9xxx.c.obj
-
-BSP/Touch/gt9xxx.i: BSP/Touch/gt9xxx.c.i
-.PHONY : BSP/Touch/gt9xxx.i
-
-# target to preprocess a source file
-BSP/Touch/gt9xxx.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/BSP/Touch/gt9xxx.c.i
-.PHONY : BSP/Touch/gt9xxx.c.i
-
-BSP/Touch/gt9xxx.s: BSP/Touch/gt9xxx.c.s
-.PHONY : BSP/Touch/gt9xxx.s
-
-# target to generate assembly for a file
-BSP/Touch/gt9xxx.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/BSP/Touch/gt9xxx.c.s
-.PHONY : BSP/Touch/gt9xxx.c.s
-
-BSP/Touch/myiic.obj: BSP/Touch/myiic.c.obj
-.PHONY : BSP/Touch/myiic.obj
-
-# target to build an object file
-BSP/Touch/myiic.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/BSP/Touch/myiic.c.obj
-.PHONY : BSP/Touch/myiic.c.obj
-
-BSP/Touch/myiic.i: BSP/Touch/myiic.c.i
-.PHONY : BSP/Touch/myiic.i
-
-# target to preprocess a source file
-BSP/Touch/myiic.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/BSP/Touch/myiic.c.i
-.PHONY : BSP/Touch/myiic.c.i
-
-BSP/Touch/myiic.s: BSP/Touch/myiic.c.s
-.PHONY : BSP/Touch/myiic.s
-
-# target to generate assembly for a file
-BSP/Touch/myiic.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/BSP/Touch/myiic.c.s
-.PHONY : BSP/Touch/myiic.c.s
-
-BSP/Touch/touch.obj: BSP/Touch/touch.c.obj
-.PHONY : BSP/Touch/touch.obj
-
-# target to build an object file
-BSP/Touch/touch.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/BSP/Touch/touch.c.obj
-.PHONY : BSP/Touch/touch.c.obj
-
-BSP/Touch/touch.i: BSP/Touch/touch.c.i
-.PHONY : BSP/Touch/touch.i
-
-# target to preprocess a source file
-BSP/Touch/touch.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/BSP/Touch/touch.c.i
-.PHONY : BSP/Touch/touch.c.i
-
-BSP/Touch/touch.s: BSP/Touch/touch.c.s
-.PHONY : BSP/Touch/touch.s
-
-# target to generate assembly for a file
-BSP/Touch/touch.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/BSP/Touch/touch.c.s
-.PHONY : BSP/Touch/touch.c.s
-
-Bridge/Bridge.obj: Bridge/Bridge.cpp.obj
-.PHONY : Bridge/Bridge.obj
-
-# target to build an object file
-Bridge/Bridge.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Bridge/Bridge.cpp.obj
-.PHONY : Bridge/Bridge.cpp.obj
-
-Bridge/Bridge.i: Bridge/Bridge.cpp.i
-.PHONY : Bridge/Bridge.i
-
-# target to preprocess a source file
-Bridge/Bridge.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Bridge/Bridge.cpp.i
-.PHONY : Bridge/Bridge.cpp.i
-
-Bridge/Bridge.s: Bridge/Bridge.cpp.s
-.PHONY : Bridge/Bridge.s
-
-# target to generate assembly for a file
-Bridge/Bridge.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Bridge/Bridge.cpp.s
-.PHONY : Bridge/Bridge.cpp.s
+BSPtest/SDtest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/BSPtest/SDtest.cpp.s
+.PHONY : BSPtest/SDtest.cpp.s
 
 Core/Src/dma.obj: Core/Src/dma.c.obj
 .PHONY : Core/Src/dma.obj
@@ -391,6 +175,30 @@ Core/Src/dma.s: Core/Src/dma.c.s
 Core/Src/dma.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Core/Src/dma.c.s
 .PHONY : Core/Src/dma.c.s
+
+Core/Src/freertos.obj: Core/Src/freertos.c.obj
+.PHONY : Core/Src/freertos.obj
+
+# target to build an object file
+Core/Src/freertos.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Core/Src/freertos.c.obj
+.PHONY : Core/Src/freertos.c.obj
+
+Core/Src/freertos.i: Core/Src/freertos.c.i
+.PHONY : Core/Src/freertos.i
+
+# target to preprocess a source file
+Core/Src/freertos.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Core/Src/freertos.c.i
+.PHONY : Core/Src/freertos.c.i
+
+Core/Src/freertos.s: Core/Src/freertos.c.s
+.PHONY : Core/Src/freertos.s
+
+# target to generate assembly for a file
+Core/Src/freertos.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Core/Src/freertos.c.s
+.PHONY : Core/Src/freertos.c.s
 
 Core/Src/fsmc.obj: Core/Src/fsmc.c.obj
 .PHONY : Core/Src/fsmc.obj
@@ -464,6 +272,54 @@ Core/Src/main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Core/Src/main.c.s
 .PHONY : Core/Src/main.c.s
 
+Core/Src/rng.obj: Core/Src/rng.c.obj
+.PHONY : Core/Src/rng.obj
+
+# target to build an object file
+Core/Src/rng.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Core/Src/rng.c.obj
+.PHONY : Core/Src/rng.c.obj
+
+Core/Src/rng.i: Core/Src/rng.c.i
+.PHONY : Core/Src/rng.i
+
+# target to preprocess a source file
+Core/Src/rng.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Core/Src/rng.c.i
+.PHONY : Core/Src/rng.c.i
+
+Core/Src/rng.s: Core/Src/rng.c.s
+.PHONY : Core/Src/rng.s
+
+# target to generate assembly for a file
+Core/Src/rng.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Core/Src/rng.c.s
+.PHONY : Core/Src/rng.c.s
+
+Core/Src/sdio.obj: Core/Src/sdio.c.obj
+.PHONY : Core/Src/sdio.obj
+
+# target to build an object file
+Core/Src/sdio.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Core/Src/sdio.c.obj
+.PHONY : Core/Src/sdio.c.obj
+
+Core/Src/sdio.i: Core/Src/sdio.c.i
+.PHONY : Core/Src/sdio.i
+
+# target to preprocess a source file
+Core/Src/sdio.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Core/Src/sdio.c.i
+.PHONY : Core/Src/sdio.c.i
+
+Core/Src/sdio.s: Core/Src/sdio.c.s
+.PHONY : Core/Src/sdio.s
+
+# target to generate assembly for a file
+Core/Src/sdio.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Core/Src/sdio.c.s
+.PHONY : Core/Src/sdio.c.s
+
 Core/Src/stm32f4xx_hal_msp.obj: Core/Src/stm32f4xx_hal_msp.c.obj
 .PHONY : Core/Src/stm32f4xx_hal_msp.obj
 
@@ -487,6 +343,30 @@ Core/Src/stm32f4xx_hal_msp.s: Core/Src/stm32f4xx_hal_msp.c.s
 Core/Src/stm32f4xx_hal_msp.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Core/Src/stm32f4xx_hal_msp.c.s
 .PHONY : Core/Src/stm32f4xx_hal_msp.c.s
+
+Core/Src/stm32f4xx_hal_timebase_tim.obj: Core/Src/stm32f4xx_hal_timebase_tim.c.obj
+.PHONY : Core/Src/stm32f4xx_hal_timebase_tim.obj
+
+# target to build an object file
+Core/Src/stm32f4xx_hal_timebase_tim.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.obj
+.PHONY : Core/Src/stm32f4xx_hal_timebase_tim.c.obj
+
+Core/Src/stm32f4xx_hal_timebase_tim.i: Core/Src/stm32f4xx_hal_timebase_tim.c.i
+.PHONY : Core/Src/stm32f4xx_hal_timebase_tim.i
+
+# target to preprocess a source file
+Core/Src/stm32f4xx_hal_timebase_tim.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.i
+.PHONY : Core/Src/stm32f4xx_hal_timebase_tim.c.i
+
+Core/Src/stm32f4xx_hal_timebase_tim.s: Core/Src/stm32f4xx_hal_timebase_tim.c.s
+.PHONY : Core/Src/stm32f4xx_hal_timebase_tim.s
+
+# target to generate assembly for a file
+Core/Src/stm32f4xx_hal_timebase_tim.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.s
+.PHONY : Core/Src/stm32f4xx_hal_timebase_tim.c.s
 
 Core/Src/stm32f4xx_it.obj: Core/Src/stm32f4xx_it.c.obj
 .PHONY : Core/Src/stm32f4xx_it.obj
@@ -615,6 +495,246 @@ Core/Startup/startup_stm32f407zgtx.obj: Core/Startup/startup_stm32f407zgtx.s.obj
 Core/Startup/startup_stm32f407zgtx.s.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Core/Startup/startup_stm32f407zgtx.s.obj
 .PHONY : Core/Startup/startup_stm32f407zgtx.s.obj
+
+Drivers/BSP/LCD/lcd.obj: Drivers/BSP/LCD/lcd.c.obj
+.PHONY : Drivers/BSP/LCD/lcd.obj
+
+# target to build an object file
+Drivers/BSP/LCD/lcd.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Drivers/BSP/LCD/lcd.c.obj
+.PHONY : Drivers/BSP/LCD/lcd.c.obj
+
+Drivers/BSP/LCD/lcd.i: Drivers/BSP/LCD/lcd.c.i
+.PHONY : Drivers/BSP/LCD/lcd.i
+
+# target to preprocess a source file
+Drivers/BSP/LCD/lcd.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Drivers/BSP/LCD/lcd.c.i
+.PHONY : Drivers/BSP/LCD/lcd.c.i
+
+Drivers/BSP/LCD/lcd.s: Drivers/BSP/LCD/lcd.c.s
+.PHONY : Drivers/BSP/LCD/lcd.s
+
+# target to generate assembly for a file
+Drivers/BSP/LCD/lcd.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Drivers/BSP/LCD/lcd.c.s
+.PHONY : Drivers/BSP/LCD/lcd.c.s
+
+Drivers/BSP/LCD/lcd_ex.obj: Drivers/BSP/LCD/lcd_ex.c.obj
+.PHONY : Drivers/BSP/LCD/lcd_ex.obj
+
+# target to build an object file
+Drivers/BSP/LCD/lcd_ex.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Drivers/BSP/LCD/lcd_ex.c.obj
+.PHONY : Drivers/BSP/LCD/lcd_ex.c.obj
+
+Drivers/BSP/LCD/lcd_ex.i: Drivers/BSP/LCD/lcd_ex.c.i
+.PHONY : Drivers/BSP/LCD/lcd_ex.i
+
+# target to preprocess a source file
+Drivers/BSP/LCD/lcd_ex.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Drivers/BSP/LCD/lcd_ex.c.i
+.PHONY : Drivers/BSP/LCD/lcd_ex.c.i
+
+Drivers/BSP/LCD/lcd_ex.s: Drivers/BSP/LCD/lcd_ex.c.s
+.PHONY : Drivers/BSP/LCD/lcd_ex.s
+
+# target to generate assembly for a file
+Drivers/BSP/LCD/lcd_ex.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Drivers/BSP/LCD/lcd_ex.c.s
+.PHONY : Drivers/BSP/LCD/lcd_ex.c.s
+
+Drivers/BSP/SYSTEM/delay.obj: Drivers/BSP/SYSTEM/delay.c.obj
+.PHONY : Drivers/BSP/SYSTEM/delay.obj
+
+# target to build an object file
+Drivers/BSP/SYSTEM/delay.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Drivers/BSP/SYSTEM/delay.c.obj
+.PHONY : Drivers/BSP/SYSTEM/delay.c.obj
+
+Drivers/BSP/SYSTEM/delay.i: Drivers/BSP/SYSTEM/delay.c.i
+.PHONY : Drivers/BSP/SYSTEM/delay.i
+
+# target to preprocess a source file
+Drivers/BSP/SYSTEM/delay.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Drivers/BSP/SYSTEM/delay.c.i
+.PHONY : Drivers/BSP/SYSTEM/delay.c.i
+
+Drivers/BSP/SYSTEM/delay.s: Drivers/BSP/SYSTEM/delay.c.s
+.PHONY : Drivers/BSP/SYSTEM/delay.s
+
+# target to generate assembly for a file
+Drivers/BSP/SYSTEM/delay.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Drivers/BSP/SYSTEM/delay.c.s
+.PHONY : Drivers/BSP/SYSTEM/delay.c.s
+
+Drivers/BSP/SYSTEM/sys.obj: Drivers/BSP/SYSTEM/sys.c.obj
+.PHONY : Drivers/BSP/SYSTEM/sys.obj
+
+# target to build an object file
+Drivers/BSP/SYSTEM/sys.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Drivers/BSP/SYSTEM/sys.c.obj
+.PHONY : Drivers/BSP/SYSTEM/sys.c.obj
+
+Drivers/BSP/SYSTEM/sys.i: Drivers/BSP/SYSTEM/sys.c.i
+.PHONY : Drivers/BSP/SYSTEM/sys.i
+
+# target to preprocess a source file
+Drivers/BSP/SYSTEM/sys.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Drivers/BSP/SYSTEM/sys.c.i
+.PHONY : Drivers/BSP/SYSTEM/sys.c.i
+
+Drivers/BSP/SYSTEM/sys.s: Drivers/BSP/SYSTEM/sys.c.s
+.PHONY : Drivers/BSP/SYSTEM/sys.s
+
+# target to generate assembly for a file
+Drivers/BSP/SYSTEM/sys.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Drivers/BSP/SYSTEM/sys.c.s
+.PHONY : Drivers/BSP/SYSTEM/sys.c.s
+
+Drivers/BSP/Touch/24cxx.obj: Drivers/BSP/Touch/24cxx.c.obj
+.PHONY : Drivers/BSP/Touch/24cxx.obj
+
+# target to build an object file
+Drivers/BSP/Touch/24cxx.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Drivers/BSP/Touch/24cxx.c.obj
+.PHONY : Drivers/BSP/Touch/24cxx.c.obj
+
+Drivers/BSP/Touch/24cxx.i: Drivers/BSP/Touch/24cxx.c.i
+.PHONY : Drivers/BSP/Touch/24cxx.i
+
+# target to preprocess a source file
+Drivers/BSP/Touch/24cxx.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Drivers/BSP/Touch/24cxx.c.i
+.PHONY : Drivers/BSP/Touch/24cxx.c.i
+
+Drivers/BSP/Touch/24cxx.s: Drivers/BSP/Touch/24cxx.c.s
+.PHONY : Drivers/BSP/Touch/24cxx.s
+
+# target to generate assembly for a file
+Drivers/BSP/Touch/24cxx.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Drivers/BSP/Touch/24cxx.c.s
+.PHONY : Drivers/BSP/Touch/24cxx.c.s
+
+Drivers/BSP/Touch/ctiic.obj: Drivers/BSP/Touch/ctiic.c.obj
+.PHONY : Drivers/BSP/Touch/ctiic.obj
+
+# target to build an object file
+Drivers/BSP/Touch/ctiic.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Drivers/BSP/Touch/ctiic.c.obj
+.PHONY : Drivers/BSP/Touch/ctiic.c.obj
+
+Drivers/BSP/Touch/ctiic.i: Drivers/BSP/Touch/ctiic.c.i
+.PHONY : Drivers/BSP/Touch/ctiic.i
+
+# target to preprocess a source file
+Drivers/BSP/Touch/ctiic.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Drivers/BSP/Touch/ctiic.c.i
+.PHONY : Drivers/BSP/Touch/ctiic.c.i
+
+Drivers/BSP/Touch/ctiic.s: Drivers/BSP/Touch/ctiic.c.s
+.PHONY : Drivers/BSP/Touch/ctiic.s
+
+# target to generate assembly for a file
+Drivers/BSP/Touch/ctiic.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Drivers/BSP/Touch/ctiic.c.s
+.PHONY : Drivers/BSP/Touch/ctiic.c.s
+
+Drivers/BSP/Touch/ft5206.obj: Drivers/BSP/Touch/ft5206.c.obj
+.PHONY : Drivers/BSP/Touch/ft5206.obj
+
+# target to build an object file
+Drivers/BSP/Touch/ft5206.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Drivers/BSP/Touch/ft5206.c.obj
+.PHONY : Drivers/BSP/Touch/ft5206.c.obj
+
+Drivers/BSP/Touch/ft5206.i: Drivers/BSP/Touch/ft5206.c.i
+.PHONY : Drivers/BSP/Touch/ft5206.i
+
+# target to preprocess a source file
+Drivers/BSP/Touch/ft5206.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Drivers/BSP/Touch/ft5206.c.i
+.PHONY : Drivers/BSP/Touch/ft5206.c.i
+
+Drivers/BSP/Touch/ft5206.s: Drivers/BSP/Touch/ft5206.c.s
+.PHONY : Drivers/BSP/Touch/ft5206.s
+
+# target to generate assembly for a file
+Drivers/BSP/Touch/ft5206.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Drivers/BSP/Touch/ft5206.c.s
+.PHONY : Drivers/BSP/Touch/ft5206.c.s
+
+Drivers/BSP/Touch/gt9xxx.obj: Drivers/BSP/Touch/gt9xxx.c.obj
+.PHONY : Drivers/BSP/Touch/gt9xxx.obj
+
+# target to build an object file
+Drivers/BSP/Touch/gt9xxx.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Drivers/BSP/Touch/gt9xxx.c.obj
+.PHONY : Drivers/BSP/Touch/gt9xxx.c.obj
+
+Drivers/BSP/Touch/gt9xxx.i: Drivers/BSP/Touch/gt9xxx.c.i
+.PHONY : Drivers/BSP/Touch/gt9xxx.i
+
+# target to preprocess a source file
+Drivers/BSP/Touch/gt9xxx.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Drivers/BSP/Touch/gt9xxx.c.i
+.PHONY : Drivers/BSP/Touch/gt9xxx.c.i
+
+Drivers/BSP/Touch/gt9xxx.s: Drivers/BSP/Touch/gt9xxx.c.s
+.PHONY : Drivers/BSP/Touch/gt9xxx.s
+
+# target to generate assembly for a file
+Drivers/BSP/Touch/gt9xxx.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Drivers/BSP/Touch/gt9xxx.c.s
+.PHONY : Drivers/BSP/Touch/gt9xxx.c.s
+
+Drivers/BSP/Touch/myiic.obj: Drivers/BSP/Touch/myiic.c.obj
+.PHONY : Drivers/BSP/Touch/myiic.obj
+
+# target to build an object file
+Drivers/BSP/Touch/myiic.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Drivers/BSP/Touch/myiic.c.obj
+.PHONY : Drivers/BSP/Touch/myiic.c.obj
+
+Drivers/BSP/Touch/myiic.i: Drivers/BSP/Touch/myiic.c.i
+.PHONY : Drivers/BSP/Touch/myiic.i
+
+# target to preprocess a source file
+Drivers/BSP/Touch/myiic.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Drivers/BSP/Touch/myiic.c.i
+.PHONY : Drivers/BSP/Touch/myiic.c.i
+
+Drivers/BSP/Touch/myiic.s: Drivers/BSP/Touch/myiic.c.s
+.PHONY : Drivers/BSP/Touch/myiic.s
+
+# target to generate assembly for a file
+Drivers/BSP/Touch/myiic.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Drivers/BSP/Touch/myiic.c.s
+.PHONY : Drivers/BSP/Touch/myiic.c.s
+
+Drivers/BSP/Touch/touch.obj: Drivers/BSP/Touch/touch.c.obj
+.PHONY : Drivers/BSP/Touch/touch.obj
+
+# target to build an object file
+Drivers/BSP/Touch/touch.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Drivers/BSP/Touch/touch.c.obj
+.PHONY : Drivers/BSP/Touch/touch.c.obj
+
+Drivers/BSP/Touch/touch.i: Drivers/BSP/Touch/touch.c.i
+.PHONY : Drivers/BSP/Touch/touch.i
+
+# target to preprocess a source file
+Drivers/BSP/Touch/touch.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Drivers/BSP/Touch/touch.c.i
+.PHONY : Drivers/BSP/Touch/touch.c.i
+
+Drivers/BSP/Touch/touch.s: Drivers/BSP/Touch/touch.c.s
+.PHONY : Drivers/BSP/Touch/touch.s
+
+# target to generate assembly for a file
+Drivers/BSP/Touch/touch.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Drivers/BSP/Touch/touch.c.s
+.PHONY : Drivers/BSP/Touch/touch.c.s
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.obj
@@ -928,6 +1048,54 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.s
 
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c.obj
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.obj
+
+# target to build an object file
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c.obj
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c.obj
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c.i
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.i
+
+# target to preprocess a source file
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c.i
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c.i
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c.s
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.s
+
+# target to generate assembly for a file
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c.s
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c.s
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.obj
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.obj
+
+# target to build an object file
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.obj
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.obj
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.i
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.i
+
+# target to preprocess a source file
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.i
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.i
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.s
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.s
+
+# target to generate assembly for a file
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.s
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.s
+
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.obj
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.obj
 
@@ -1047,6 +1215,126 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.s: Drivers/STM32F4xx_HAL_Driv
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.s
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.obj
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.obj
+
+# target to build an object file
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.obj
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.obj
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.i
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.i
+
+# target to preprocess a source file
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.i
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.i
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.s
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.s
+
+# target to generate assembly for a file
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.s
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.s
+
+FATFS/App/fatfs.obj: FATFS/App/fatfs.c.obj
+.PHONY : FATFS/App/fatfs.obj
+
+# target to build an object file
+FATFS/App/fatfs.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/FATFS/App/fatfs.c.obj
+.PHONY : FATFS/App/fatfs.c.obj
+
+FATFS/App/fatfs.i: FATFS/App/fatfs.c.i
+.PHONY : FATFS/App/fatfs.i
+
+# target to preprocess a source file
+FATFS/App/fatfs.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/FATFS/App/fatfs.c.i
+.PHONY : FATFS/App/fatfs.c.i
+
+FATFS/App/fatfs.s: FATFS/App/fatfs.c.s
+.PHONY : FATFS/App/fatfs.s
+
+# target to generate assembly for a file
+FATFS/App/fatfs.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/FATFS/App/fatfs.c.s
+.PHONY : FATFS/App/fatfs.c.s
+
+FATFS/Target/bsp_driver_sd.obj: FATFS/Target/bsp_driver_sd.c.obj
+.PHONY : FATFS/Target/bsp_driver_sd.obj
+
+# target to build an object file
+FATFS/Target/bsp_driver_sd.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/FATFS/Target/bsp_driver_sd.c.obj
+.PHONY : FATFS/Target/bsp_driver_sd.c.obj
+
+FATFS/Target/bsp_driver_sd.i: FATFS/Target/bsp_driver_sd.c.i
+.PHONY : FATFS/Target/bsp_driver_sd.i
+
+# target to preprocess a source file
+FATFS/Target/bsp_driver_sd.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/FATFS/Target/bsp_driver_sd.c.i
+.PHONY : FATFS/Target/bsp_driver_sd.c.i
+
+FATFS/Target/bsp_driver_sd.s: FATFS/Target/bsp_driver_sd.c.s
+.PHONY : FATFS/Target/bsp_driver_sd.s
+
+# target to generate assembly for a file
+FATFS/Target/bsp_driver_sd.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/FATFS/Target/bsp_driver_sd.c.s
+.PHONY : FATFS/Target/bsp_driver_sd.c.s
+
+FATFS/Target/fatfs_platform.obj: FATFS/Target/fatfs_platform.c.obj
+.PHONY : FATFS/Target/fatfs_platform.obj
+
+# target to build an object file
+FATFS/Target/fatfs_platform.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/FATFS/Target/fatfs_platform.c.obj
+.PHONY : FATFS/Target/fatfs_platform.c.obj
+
+FATFS/Target/fatfs_platform.i: FATFS/Target/fatfs_platform.c.i
+.PHONY : FATFS/Target/fatfs_platform.i
+
+# target to preprocess a source file
+FATFS/Target/fatfs_platform.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/FATFS/Target/fatfs_platform.c.i
+.PHONY : FATFS/Target/fatfs_platform.c.i
+
+FATFS/Target/fatfs_platform.s: FATFS/Target/fatfs_platform.c.s
+.PHONY : FATFS/Target/fatfs_platform.s
+
+# target to generate assembly for a file
+FATFS/Target/fatfs_platform.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/FATFS/Target/fatfs_platform.c.s
+.PHONY : FATFS/Target/fatfs_platform.c.s
+
+FATFS/Target/sd_diskio.obj: FATFS/Target/sd_diskio.c.obj
+.PHONY : FATFS/Target/sd_diskio.obj
+
+# target to build an object file
+FATFS/Target/sd_diskio.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/FATFS/Target/sd_diskio.c.obj
+.PHONY : FATFS/Target/sd_diskio.c.obj
+
+FATFS/Target/sd_diskio.i: FATFS/Target/sd_diskio.c.i
+.PHONY : FATFS/Target/sd_diskio.i
+
+# target to preprocess a source file
+FATFS/Target/sd_diskio.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/FATFS/Target/sd_diskio.c.i
+.PHONY : FATFS/Target/sd_diskio.c.i
+
+FATFS/Target/sd_diskio.s: FATFS/Target/sd_diskio.c.s
+.PHONY : FATFS/Target/sd_diskio.s
+
+# target to generate assembly for a file
+FATFS/Target/sd_diskio.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/FATFS/Target/sd_diskio.c.s
+.PHONY : FATFS/Target/sd_diskio.c.s
 
 MiddleDevice/LVGL/examples/porting/lv_port_disp_template.obj: MiddleDevice/LVGL/examples/porting/lv_port_disp_template.c.obj
 .PHONY : MiddleDevice/LVGL/examples/porting/lv_port_disp_template.obj
@@ -6664,6 +6952,150 @@ MiddleDevice/LVGLCPP/src/lvglpp/widgets/win/win.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/MiddleDevice/LVGLCPP/src/lvglpp/widgets/win/win.cpp.s
 .PHONY : MiddleDevice/LVGLCPP/src/lvglpp/widgets/win/win.cpp.s
 
+MiddleDevice/MyMiddleDevice/Serial/BaseLib/MyUsart.obj: MiddleDevice/MyMiddleDevice/Serial/BaseLib/MyUsart.cpp.obj
+.PHONY : MiddleDevice/MyMiddleDevice/Serial/BaseLib/MyUsart.obj
+
+# target to build an object file
+MiddleDevice/MyMiddleDevice/Serial/BaseLib/MyUsart.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/MiddleDevice/MyMiddleDevice/Serial/BaseLib/MyUsart.cpp.obj
+.PHONY : MiddleDevice/MyMiddleDevice/Serial/BaseLib/MyUsart.cpp.obj
+
+MiddleDevice/MyMiddleDevice/Serial/BaseLib/MyUsart.i: MiddleDevice/MyMiddleDevice/Serial/BaseLib/MyUsart.cpp.i
+.PHONY : MiddleDevice/MyMiddleDevice/Serial/BaseLib/MyUsart.i
+
+# target to preprocess a source file
+MiddleDevice/MyMiddleDevice/Serial/BaseLib/MyUsart.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/MiddleDevice/MyMiddleDevice/Serial/BaseLib/MyUsart.cpp.i
+.PHONY : MiddleDevice/MyMiddleDevice/Serial/BaseLib/MyUsart.cpp.i
+
+MiddleDevice/MyMiddleDevice/Serial/BaseLib/MyUsart.s: MiddleDevice/MyMiddleDevice/Serial/BaseLib/MyUsart.cpp.s
+.PHONY : MiddleDevice/MyMiddleDevice/Serial/BaseLib/MyUsart.s
+
+# target to generate assembly for a file
+MiddleDevice/MyMiddleDevice/Serial/BaseLib/MyUsart.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/MiddleDevice/MyMiddleDevice/Serial/BaseLib/MyUsart.cpp.s
+.PHONY : MiddleDevice/MyMiddleDevice/Serial/BaseLib/MyUsart.cpp.s
+
+MiddleDevice/MyMiddleDevice/Serial/DataStream/inputStream.obj: MiddleDevice/MyMiddleDevice/Serial/DataStream/inputStream.cpp.obj
+.PHONY : MiddleDevice/MyMiddleDevice/Serial/DataStream/inputStream.obj
+
+# target to build an object file
+MiddleDevice/MyMiddleDevice/Serial/DataStream/inputStream.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/MiddleDevice/MyMiddleDevice/Serial/DataStream/inputStream.cpp.obj
+.PHONY : MiddleDevice/MyMiddleDevice/Serial/DataStream/inputStream.cpp.obj
+
+MiddleDevice/MyMiddleDevice/Serial/DataStream/inputStream.i: MiddleDevice/MyMiddleDevice/Serial/DataStream/inputStream.cpp.i
+.PHONY : MiddleDevice/MyMiddleDevice/Serial/DataStream/inputStream.i
+
+# target to preprocess a source file
+MiddleDevice/MyMiddleDevice/Serial/DataStream/inputStream.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/MiddleDevice/MyMiddleDevice/Serial/DataStream/inputStream.cpp.i
+.PHONY : MiddleDevice/MyMiddleDevice/Serial/DataStream/inputStream.cpp.i
+
+MiddleDevice/MyMiddleDevice/Serial/DataStream/inputStream.s: MiddleDevice/MyMiddleDevice/Serial/DataStream/inputStream.cpp.s
+.PHONY : MiddleDevice/MyMiddleDevice/Serial/DataStream/inputStream.s
+
+# target to generate assembly for a file
+MiddleDevice/MyMiddleDevice/Serial/DataStream/inputStream.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/MiddleDevice/MyMiddleDevice/Serial/DataStream/inputStream.cpp.s
+.PHONY : MiddleDevice/MyMiddleDevice/Serial/DataStream/inputStream.cpp.s
+
+MiddleDevice/MyMiddleDevice/Serial/DataStream/outputStream.obj: MiddleDevice/MyMiddleDevice/Serial/DataStream/outputStream.cpp.obj
+.PHONY : MiddleDevice/MyMiddleDevice/Serial/DataStream/outputStream.obj
+
+# target to build an object file
+MiddleDevice/MyMiddleDevice/Serial/DataStream/outputStream.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/MiddleDevice/MyMiddleDevice/Serial/DataStream/outputStream.cpp.obj
+.PHONY : MiddleDevice/MyMiddleDevice/Serial/DataStream/outputStream.cpp.obj
+
+MiddleDevice/MyMiddleDevice/Serial/DataStream/outputStream.i: MiddleDevice/MyMiddleDevice/Serial/DataStream/outputStream.cpp.i
+.PHONY : MiddleDevice/MyMiddleDevice/Serial/DataStream/outputStream.i
+
+# target to preprocess a source file
+MiddleDevice/MyMiddleDevice/Serial/DataStream/outputStream.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/MiddleDevice/MyMiddleDevice/Serial/DataStream/outputStream.cpp.i
+.PHONY : MiddleDevice/MyMiddleDevice/Serial/DataStream/outputStream.cpp.i
+
+MiddleDevice/MyMiddleDevice/Serial/DataStream/outputStream.s: MiddleDevice/MyMiddleDevice/Serial/DataStream/outputStream.cpp.s
+.PHONY : MiddleDevice/MyMiddleDevice/Serial/DataStream/outputStream.s
+
+# target to generate assembly for a file
+MiddleDevice/MyMiddleDevice/Serial/DataStream/outputStream.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/MiddleDevice/MyMiddleDevice/Serial/DataStream/outputStream.cpp.s
+.PHONY : MiddleDevice/MyMiddleDevice/Serial/DataStream/outputStream.cpp.s
+
+MiddleDevice/MyMiddleDevice/Serial/OtherLib/WString.obj: MiddleDevice/MyMiddleDevice/Serial/OtherLib/WString.cpp.obj
+.PHONY : MiddleDevice/MyMiddleDevice/Serial/OtherLib/WString.obj
+
+# target to build an object file
+MiddleDevice/MyMiddleDevice/Serial/OtherLib/WString.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/MiddleDevice/MyMiddleDevice/Serial/OtherLib/WString.cpp.obj
+.PHONY : MiddleDevice/MyMiddleDevice/Serial/OtherLib/WString.cpp.obj
+
+MiddleDevice/MyMiddleDevice/Serial/OtherLib/WString.i: MiddleDevice/MyMiddleDevice/Serial/OtherLib/WString.cpp.i
+.PHONY : MiddleDevice/MyMiddleDevice/Serial/OtherLib/WString.i
+
+# target to preprocess a source file
+MiddleDevice/MyMiddleDevice/Serial/OtherLib/WString.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/MiddleDevice/MyMiddleDevice/Serial/OtherLib/WString.cpp.i
+.PHONY : MiddleDevice/MyMiddleDevice/Serial/OtherLib/WString.cpp.i
+
+MiddleDevice/MyMiddleDevice/Serial/OtherLib/WString.s: MiddleDevice/MyMiddleDevice/Serial/OtherLib/WString.cpp.s
+.PHONY : MiddleDevice/MyMiddleDevice/Serial/OtherLib/WString.s
+
+# target to generate assembly for a file
+MiddleDevice/MyMiddleDevice/Serial/OtherLib/WString.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/MiddleDevice/MyMiddleDevice/Serial/OtherLib/WString.cpp.s
+.PHONY : MiddleDevice/MyMiddleDevice/Serial/OtherLib/WString.cpp.s
+
+MiddleDevice/MyMiddleDevice/Serial/OtherLib/bswap.obj: MiddleDevice/MyMiddleDevice/Serial/OtherLib/bswap.c.obj
+.PHONY : MiddleDevice/MyMiddleDevice/Serial/OtherLib/bswap.obj
+
+# target to build an object file
+MiddleDevice/MyMiddleDevice/Serial/OtherLib/bswap.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/MiddleDevice/MyMiddleDevice/Serial/OtherLib/bswap.c.obj
+.PHONY : MiddleDevice/MyMiddleDevice/Serial/OtherLib/bswap.c.obj
+
+MiddleDevice/MyMiddleDevice/Serial/OtherLib/bswap.i: MiddleDevice/MyMiddleDevice/Serial/OtherLib/bswap.c.i
+.PHONY : MiddleDevice/MyMiddleDevice/Serial/OtherLib/bswap.i
+
+# target to preprocess a source file
+MiddleDevice/MyMiddleDevice/Serial/OtherLib/bswap.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/MiddleDevice/MyMiddleDevice/Serial/OtherLib/bswap.c.i
+.PHONY : MiddleDevice/MyMiddleDevice/Serial/OtherLib/bswap.c.i
+
+MiddleDevice/MyMiddleDevice/Serial/OtherLib/bswap.s: MiddleDevice/MyMiddleDevice/Serial/OtherLib/bswap.c.s
+.PHONY : MiddleDevice/MyMiddleDevice/Serial/OtherLib/bswap.s
+
+# target to generate assembly for a file
+MiddleDevice/MyMiddleDevice/Serial/OtherLib/bswap.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/MiddleDevice/MyMiddleDevice/Serial/OtherLib/bswap.c.s
+.PHONY : MiddleDevice/MyMiddleDevice/Serial/OtherLib/bswap.c.s
+
+MiddleDevice/MyMiddleDevice/Serial/OtherLib/stdlib_noniso.obj: MiddleDevice/MyMiddleDevice/Serial/OtherLib/stdlib_noniso.c.obj
+.PHONY : MiddleDevice/MyMiddleDevice/Serial/OtherLib/stdlib_noniso.obj
+
+# target to build an object file
+MiddleDevice/MyMiddleDevice/Serial/OtherLib/stdlib_noniso.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/MiddleDevice/MyMiddleDevice/Serial/OtherLib/stdlib_noniso.c.obj
+.PHONY : MiddleDevice/MyMiddleDevice/Serial/OtherLib/stdlib_noniso.c.obj
+
+MiddleDevice/MyMiddleDevice/Serial/OtherLib/stdlib_noniso.i: MiddleDevice/MyMiddleDevice/Serial/OtherLib/stdlib_noniso.c.i
+.PHONY : MiddleDevice/MyMiddleDevice/Serial/OtherLib/stdlib_noniso.i
+
+# target to preprocess a source file
+MiddleDevice/MyMiddleDevice/Serial/OtherLib/stdlib_noniso.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/MiddleDevice/MyMiddleDevice/Serial/OtherLib/stdlib_noniso.c.i
+.PHONY : MiddleDevice/MyMiddleDevice/Serial/OtherLib/stdlib_noniso.c.i
+
+MiddleDevice/MyMiddleDevice/Serial/OtherLib/stdlib_noniso.s: MiddleDevice/MyMiddleDevice/Serial/OtherLib/stdlib_noniso.c.s
+.PHONY : MiddleDevice/MyMiddleDevice/Serial/OtherLib/stdlib_noniso.s
+
+# target to generate assembly for a file
+MiddleDevice/MyMiddleDevice/Serial/OtherLib/stdlib_noniso.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/MiddleDevice/MyMiddleDevice/Serial/OtherLib/stdlib_noniso.c.s
+.PHONY : MiddleDevice/MyMiddleDevice/Serial/OtherLib/stdlib_noniso.c.s
+
 MiddleDevice/boot_anim_ascii/boot_anim_ascii.obj: MiddleDevice/boot_anim_ascii/boot_anim_ascii.cpp.obj
 .PHONY : MiddleDevice/boot_anim_ascii/boot_anim_ascii.obj
 
@@ -6808,6 +7240,438 @@ MiddleDevice/mooncake/simplekv/simplekv.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/MiddleDevice/mooncake/simplekv/simplekv.cpp.s
 .PHONY : MiddleDevice/mooncake/simplekv/simplekv.cpp.s
 
+Middlewares/Third_Party/FatFs/src/diskio.obj: Middlewares/Third_Party/FatFs/src/diskio.c.obj
+.PHONY : Middlewares/Third_Party/FatFs/src/diskio.obj
+
+# target to build an object file
+Middlewares/Third_Party/FatFs/src/diskio.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Middlewares/Third_Party/FatFs/src/diskio.c.obj
+.PHONY : Middlewares/Third_Party/FatFs/src/diskio.c.obj
+
+Middlewares/Third_Party/FatFs/src/diskio.i: Middlewares/Third_Party/FatFs/src/diskio.c.i
+.PHONY : Middlewares/Third_Party/FatFs/src/diskio.i
+
+# target to preprocess a source file
+Middlewares/Third_Party/FatFs/src/diskio.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Middlewares/Third_Party/FatFs/src/diskio.c.i
+.PHONY : Middlewares/Third_Party/FatFs/src/diskio.c.i
+
+Middlewares/Third_Party/FatFs/src/diskio.s: Middlewares/Third_Party/FatFs/src/diskio.c.s
+.PHONY : Middlewares/Third_Party/FatFs/src/diskio.s
+
+# target to generate assembly for a file
+Middlewares/Third_Party/FatFs/src/diskio.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Middlewares/Third_Party/FatFs/src/diskio.c.s
+.PHONY : Middlewares/Third_Party/FatFs/src/diskio.c.s
+
+Middlewares/Third_Party/FatFs/src/ff.obj: Middlewares/Third_Party/FatFs/src/ff.c.obj
+.PHONY : Middlewares/Third_Party/FatFs/src/ff.obj
+
+# target to build an object file
+Middlewares/Third_Party/FatFs/src/ff.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Middlewares/Third_Party/FatFs/src/ff.c.obj
+.PHONY : Middlewares/Third_Party/FatFs/src/ff.c.obj
+
+Middlewares/Third_Party/FatFs/src/ff.i: Middlewares/Third_Party/FatFs/src/ff.c.i
+.PHONY : Middlewares/Third_Party/FatFs/src/ff.i
+
+# target to preprocess a source file
+Middlewares/Third_Party/FatFs/src/ff.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Middlewares/Third_Party/FatFs/src/ff.c.i
+.PHONY : Middlewares/Third_Party/FatFs/src/ff.c.i
+
+Middlewares/Third_Party/FatFs/src/ff.s: Middlewares/Third_Party/FatFs/src/ff.c.s
+.PHONY : Middlewares/Third_Party/FatFs/src/ff.s
+
+# target to generate assembly for a file
+Middlewares/Third_Party/FatFs/src/ff.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Middlewares/Third_Party/FatFs/src/ff.c.s
+.PHONY : Middlewares/Third_Party/FatFs/src/ff.c.s
+
+Middlewares/Third_Party/FatFs/src/ff_gen_drv.obj: Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.obj
+.PHONY : Middlewares/Third_Party/FatFs/src/ff_gen_drv.obj
+
+# target to build an object file
+Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.obj
+.PHONY : Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.obj
+
+Middlewares/Third_Party/FatFs/src/ff_gen_drv.i: Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.i
+.PHONY : Middlewares/Third_Party/FatFs/src/ff_gen_drv.i
+
+# target to preprocess a source file
+Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.i
+.PHONY : Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.i
+
+Middlewares/Third_Party/FatFs/src/ff_gen_drv.s: Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.s
+.PHONY : Middlewares/Third_Party/FatFs/src/ff_gen_drv.s
+
+# target to generate assembly for a file
+Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.s
+.PHONY : Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.s
+
+Middlewares/Third_Party/FatFs/src/option/cc936.obj: Middlewares/Third_Party/FatFs/src/option/cc936.c.obj
+.PHONY : Middlewares/Third_Party/FatFs/src/option/cc936.obj
+
+# target to build an object file
+Middlewares/Third_Party/FatFs/src/option/cc936.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Middlewares/Third_Party/FatFs/src/option/cc936.c.obj
+.PHONY : Middlewares/Third_Party/FatFs/src/option/cc936.c.obj
+
+Middlewares/Third_Party/FatFs/src/option/cc936.i: Middlewares/Third_Party/FatFs/src/option/cc936.c.i
+.PHONY : Middlewares/Third_Party/FatFs/src/option/cc936.i
+
+# target to preprocess a source file
+Middlewares/Third_Party/FatFs/src/option/cc936.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Middlewares/Third_Party/FatFs/src/option/cc936.c.i
+.PHONY : Middlewares/Third_Party/FatFs/src/option/cc936.c.i
+
+Middlewares/Third_Party/FatFs/src/option/cc936.s: Middlewares/Third_Party/FatFs/src/option/cc936.c.s
+.PHONY : Middlewares/Third_Party/FatFs/src/option/cc936.s
+
+# target to generate assembly for a file
+Middlewares/Third_Party/FatFs/src/option/cc936.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Middlewares/Third_Party/FatFs/src/option/cc936.c.s
+.PHONY : Middlewares/Third_Party/FatFs/src/option/cc936.c.s
+
+Middlewares/Third_Party/FatFs/src/option/syscall.obj: Middlewares/Third_Party/FatFs/src/option/syscall.c.obj
+.PHONY : Middlewares/Third_Party/FatFs/src/option/syscall.obj
+
+# target to build an object file
+Middlewares/Third_Party/FatFs/src/option/syscall.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c.obj
+.PHONY : Middlewares/Third_Party/FatFs/src/option/syscall.c.obj
+
+Middlewares/Third_Party/FatFs/src/option/syscall.i: Middlewares/Third_Party/FatFs/src/option/syscall.c.i
+.PHONY : Middlewares/Third_Party/FatFs/src/option/syscall.i
+
+# target to preprocess a source file
+Middlewares/Third_Party/FatFs/src/option/syscall.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c.i
+.PHONY : Middlewares/Third_Party/FatFs/src/option/syscall.c.i
+
+Middlewares/Third_Party/FatFs/src/option/syscall.s: Middlewares/Third_Party/FatFs/src/option/syscall.c.s
+.PHONY : Middlewares/Third_Party/FatFs/src/option/syscall.s
+
+# target to generate assembly for a file
+Middlewares/Third_Party/FatFs/src/option/syscall.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c.s
+.PHONY : Middlewares/Third_Party/FatFs/src/option/syscall.c.s
+
+Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.obj: Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.obj
+
+# target to build an object file
+Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj
+
+Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.i: Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.i
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.i
+
+# target to preprocess a source file
+Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.i
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.i
+
+Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.s: Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.s
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.s
+
+# target to generate assembly for a file
+Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.s
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.s
+
+Middlewares/Third_Party/FreeRTOS/Source/croutine.obj: Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/croutine.obj
+
+# target to build an object file
+Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj
+
+Middlewares/Third_Party/FreeRTOS/Source/croutine.i: Middlewares/Third_Party/FreeRTOS/Source/croutine.c.i
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/croutine.i
+
+# target to preprocess a source file
+Middlewares/Third_Party/FreeRTOS/Source/croutine.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.i
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/croutine.c.i
+
+Middlewares/Third_Party/FreeRTOS/Source/croutine.s: Middlewares/Third_Party/FreeRTOS/Source/croutine.c.s
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/croutine.s
+
+# target to generate assembly for a file
+Middlewares/Third_Party/FreeRTOS/Source/croutine.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.s
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/croutine.c.s
+
+Middlewares/Third_Party/FreeRTOS/Source/event_groups.obj: Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/event_groups.obj
+
+# target to build an object file
+Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj
+
+Middlewares/Third_Party/FreeRTOS/Source/event_groups.i: Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.i
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/event_groups.i
+
+# target to preprocess a source file
+Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.i
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.i
+
+Middlewares/Third_Party/FreeRTOS/Source/event_groups.s: Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.s
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/event_groups.s
+
+# target to generate assembly for a file
+Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.s
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.s
+
+Middlewares/Third_Party/FreeRTOS/Source/list.obj: Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/list.obj
+
+# target to build an object file
+Middlewares/Third_Party/FreeRTOS/Source/list.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
+
+Middlewares/Third_Party/FreeRTOS/Source/list.i: Middlewares/Third_Party/FreeRTOS/Source/list.c.i
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/list.i
+
+# target to preprocess a source file
+Middlewares/Third_Party/FreeRTOS/Source/list.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.i
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/list.c.i
+
+Middlewares/Third_Party/FreeRTOS/Source/list.s: Middlewares/Third_Party/FreeRTOS/Source/list.c.s
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/list.s
+
+# target to generate assembly for a file
+Middlewares/Third_Party/FreeRTOS/Source/list.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.s
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/list.c.s
+
+Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.obj: Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.obj
+
+# target to build an object file
+Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
+
+Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.i: Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.i
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.i
+
+# target to preprocess a source file
+Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.i
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.i
+
+Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.s: Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.s
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.s
+
+# target to generate assembly for a file
+Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.s
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.s
+
+Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.obj: Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.obj
+
+# target to build an object file
+Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
+
+Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.i: Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.i
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.i
+
+# target to preprocess a source file
+Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.i
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.i
+
+Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.s: Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.s
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.s
+
+# target to generate assembly for a file
+Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.s
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.s
+
+Middlewares/Third_Party/FreeRTOS/Source/queue.obj: Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/queue.obj
+
+# target to build an object file
+Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
+
+Middlewares/Third_Party/FreeRTOS/Source/queue.i: Middlewares/Third_Party/FreeRTOS/Source/queue.c.i
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/queue.i
+
+# target to preprocess a source file
+Middlewares/Third_Party/FreeRTOS/Source/queue.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.i
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/queue.c.i
+
+Middlewares/Third_Party/FreeRTOS/Source/queue.s: Middlewares/Third_Party/FreeRTOS/Source/queue.c.s
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/queue.s
+
+# target to generate assembly for a file
+Middlewares/Third_Party/FreeRTOS/Source/queue.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.s
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/queue.c.s
+
+Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.obj: Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.obj
+
+# target to build an object file
+Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj
+
+Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.i: Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.i
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.i
+
+# target to preprocess a source file
+Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.i
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.i
+
+Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.s: Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.s
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.s
+
+# target to generate assembly for a file
+Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.s
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.s
+
+Middlewares/Third_Party/FreeRTOS/Source/tasks.obj: Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/tasks.obj
+
+# target to build an object file
+Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+
+Middlewares/Third_Party/FreeRTOS/Source/tasks.i: Middlewares/Third_Party/FreeRTOS/Source/tasks.c.i
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/tasks.i
+
+# target to preprocess a source file
+Middlewares/Third_Party/FreeRTOS/Source/tasks.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.i
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/tasks.c.i
+
+Middlewares/Third_Party/FreeRTOS/Source/tasks.s: Middlewares/Third_Party/FreeRTOS/Source/tasks.c.s
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/tasks.s
+
+# target to generate assembly for a file
+Middlewares/Third_Party/FreeRTOS/Source/tasks.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.s
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/tasks.c.s
+
+Middlewares/Third_Party/FreeRTOS/Source/timers.obj: Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/timers.obj
+
+# target to build an object file
+Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj
+
+Middlewares/Third_Party/FreeRTOS/Source/timers.i: Middlewares/Third_Party/FreeRTOS/Source/timers.c.i
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/timers.i
+
+# target to preprocess a source file
+Middlewares/Third_Party/FreeRTOS/Source/timers.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.i
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/timers.c.i
+
+Middlewares/Third_Party/FreeRTOS/Source/timers.s: Middlewares/Third_Party/FreeRTOS/Source/timers.c.s
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/timers.s
+
+# target to generate assembly for a file
+Middlewares/Third_Party/FreeRTOS/Source/timers.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.s
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/timers.c.s
+
+Myapplication/GAME2048/2048.obj: Myapplication/GAME2048/2048.c.obj
+.PHONY : Myapplication/GAME2048/2048.obj
+
+# target to build an object file
+Myapplication/GAME2048/2048.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Myapplication/GAME2048/2048.c.obj
+.PHONY : Myapplication/GAME2048/2048.c.obj
+
+Myapplication/GAME2048/2048.i: Myapplication/GAME2048/2048.c.i
+.PHONY : Myapplication/GAME2048/2048.i
+
+# target to preprocess a source file
+Myapplication/GAME2048/2048.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Myapplication/GAME2048/2048.c.i
+.PHONY : Myapplication/GAME2048/2048.c.i
+
+Myapplication/GAME2048/2048.s: Myapplication/GAME2048/2048.c.s
+.PHONY : Myapplication/GAME2048/2048.s
+
+# target to generate assembly for a file
+Myapplication/GAME2048/2048.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Myapplication/GAME2048/2048.c.s
+.PHONY : Myapplication/GAME2048/2048.c.s
+
+Myapplication/GAME2048/Game2048APP.obj: Myapplication/GAME2048/Game2048APP.cpp.obj
+.PHONY : Myapplication/GAME2048/Game2048APP.obj
+
+# target to build an object file
+Myapplication/GAME2048/Game2048APP.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Myapplication/GAME2048/Game2048APP.cpp.obj
+.PHONY : Myapplication/GAME2048/Game2048APP.cpp.obj
+
+Myapplication/GAME2048/Game2048APP.i: Myapplication/GAME2048/Game2048APP.cpp.i
+.PHONY : Myapplication/GAME2048/Game2048APP.i
+
+# target to preprocess a source file
+Myapplication/GAME2048/Game2048APP.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Myapplication/GAME2048/Game2048APP.cpp.i
+.PHONY : Myapplication/GAME2048/Game2048APP.cpp.i
+
+Myapplication/GAME2048/Game2048APP.s: Myapplication/GAME2048/Game2048APP.cpp.s
+.PHONY : Myapplication/GAME2048/Game2048APP.s
+
+# target to generate assembly for a file
+Myapplication/GAME2048/Game2048APP.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Myapplication/GAME2048/Game2048APP.cpp.s
+.PHONY : Myapplication/GAME2048/Game2048APP.cpp.s
+
+Myapplication/GAME2048/Game2048_paker.obj: Myapplication/GAME2048/Game2048_paker.cpp.obj
+.PHONY : Myapplication/GAME2048/Game2048_paker.obj
+
+# target to build an object file
+Myapplication/GAME2048/Game2048_paker.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Myapplication/GAME2048/Game2048_paker.cpp.obj
+.PHONY : Myapplication/GAME2048/Game2048_paker.cpp.obj
+
+Myapplication/GAME2048/Game2048_paker.i: Myapplication/GAME2048/Game2048_paker.cpp.i
+.PHONY : Myapplication/GAME2048/Game2048_paker.i
+
+# target to preprocess a source file
+Myapplication/GAME2048/Game2048_paker.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Myapplication/GAME2048/Game2048_paker.cpp.i
+.PHONY : Myapplication/GAME2048/Game2048_paker.cpp.i
+
+Myapplication/GAME2048/Game2048_paker.s: Myapplication/GAME2048/Game2048_paker.cpp.s
+.PHONY : Myapplication/GAME2048/Game2048_paker.s
+
+# target to generate assembly for a file
+Myapplication/GAME2048/Game2048_paker.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Myapplication/GAME2048/Game2048_paker.cpp.s
+.PHONY : Myapplication/GAME2048/Game2048_paker.cpp.s
+
 Myapplication/GAME2048/game.obj: Myapplication/GAME2048/game.cpp.obj
 .PHONY : Myapplication/GAME2048/game.obj
 
@@ -6832,149 +7696,53 @@ Myapplication/GAME2048/game.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Myapplication/GAME2048/game.cpp.s
 .PHONY : Myapplication/GAME2048/game.cpp.s
 
-Serial/BaseLib/MyUsart.obj: Serial/BaseLib/MyUsart.cpp.obj
-.PHONY : Serial/BaseLib/MyUsart.obj
+Myapplication/ManageApp.obj: Myapplication/ManageApp.cpp.obj
+.PHONY : Myapplication/ManageApp.obj
 
 # target to build an object file
-Serial/BaseLib/MyUsart.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Serial/BaseLib/MyUsart.cpp.obj
-.PHONY : Serial/BaseLib/MyUsart.cpp.obj
+Myapplication/ManageApp.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Myapplication/ManageApp.cpp.obj
+.PHONY : Myapplication/ManageApp.cpp.obj
 
-Serial/BaseLib/MyUsart.i: Serial/BaseLib/MyUsart.cpp.i
-.PHONY : Serial/BaseLib/MyUsart.i
+Myapplication/ManageApp.i: Myapplication/ManageApp.cpp.i
+.PHONY : Myapplication/ManageApp.i
 
 # target to preprocess a source file
-Serial/BaseLib/MyUsart.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Serial/BaseLib/MyUsart.cpp.i
-.PHONY : Serial/BaseLib/MyUsart.cpp.i
+Myapplication/ManageApp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Myapplication/ManageApp.cpp.i
+.PHONY : Myapplication/ManageApp.cpp.i
 
-Serial/BaseLib/MyUsart.s: Serial/BaseLib/MyUsart.cpp.s
-.PHONY : Serial/BaseLib/MyUsart.s
+Myapplication/ManageApp.s: Myapplication/ManageApp.cpp.s
+.PHONY : Myapplication/ManageApp.s
 
 # target to generate assembly for a file
-Serial/BaseLib/MyUsart.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Serial/BaseLib/MyUsart.cpp.s
-.PHONY : Serial/BaseLib/MyUsart.cpp.s
+Myapplication/ManageApp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Myapplication/ManageApp.cpp.s
+.PHONY : Myapplication/ManageApp.cpp.s
 
-Serial/DataStream/inputStream.obj: Serial/DataStream/inputStream.cpp.obj
-.PHONY : Serial/DataStream/inputStream.obj
+SourceCode/Bridge/Bridge.obj: SourceCode/Bridge/Bridge.cpp.obj
+.PHONY : SourceCode/Bridge/Bridge.obj
 
 # target to build an object file
-Serial/DataStream/inputStream.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Serial/DataStream/inputStream.cpp.obj
-.PHONY : Serial/DataStream/inputStream.cpp.obj
+SourceCode/Bridge/Bridge.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/SourceCode/Bridge/Bridge.cpp.obj
+.PHONY : SourceCode/Bridge/Bridge.cpp.obj
 
-Serial/DataStream/inputStream.i: Serial/DataStream/inputStream.cpp.i
-.PHONY : Serial/DataStream/inputStream.i
-
-# target to preprocess a source file
-Serial/DataStream/inputStream.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Serial/DataStream/inputStream.cpp.i
-.PHONY : Serial/DataStream/inputStream.cpp.i
-
-Serial/DataStream/inputStream.s: Serial/DataStream/inputStream.cpp.s
-.PHONY : Serial/DataStream/inputStream.s
-
-# target to generate assembly for a file
-Serial/DataStream/inputStream.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Serial/DataStream/inputStream.cpp.s
-.PHONY : Serial/DataStream/inputStream.cpp.s
-
-Serial/DataStream/outputStream.obj: Serial/DataStream/outputStream.cpp.obj
-.PHONY : Serial/DataStream/outputStream.obj
-
-# target to build an object file
-Serial/DataStream/outputStream.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Serial/DataStream/outputStream.cpp.obj
-.PHONY : Serial/DataStream/outputStream.cpp.obj
-
-Serial/DataStream/outputStream.i: Serial/DataStream/outputStream.cpp.i
-.PHONY : Serial/DataStream/outputStream.i
+SourceCode/Bridge/Bridge.i: SourceCode/Bridge/Bridge.cpp.i
+.PHONY : SourceCode/Bridge/Bridge.i
 
 # target to preprocess a source file
-Serial/DataStream/outputStream.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Serial/DataStream/outputStream.cpp.i
-.PHONY : Serial/DataStream/outputStream.cpp.i
+SourceCode/Bridge/Bridge.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/SourceCode/Bridge/Bridge.cpp.i
+.PHONY : SourceCode/Bridge/Bridge.cpp.i
 
-Serial/DataStream/outputStream.s: Serial/DataStream/outputStream.cpp.s
-.PHONY : Serial/DataStream/outputStream.s
-
-# target to generate assembly for a file
-Serial/DataStream/outputStream.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Serial/DataStream/outputStream.cpp.s
-.PHONY : Serial/DataStream/outputStream.cpp.s
-
-Serial/OtherLib/WString.obj: Serial/OtherLib/WString.cpp.obj
-.PHONY : Serial/OtherLib/WString.obj
-
-# target to build an object file
-Serial/OtherLib/WString.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Serial/OtherLib/WString.cpp.obj
-.PHONY : Serial/OtherLib/WString.cpp.obj
-
-Serial/OtherLib/WString.i: Serial/OtherLib/WString.cpp.i
-.PHONY : Serial/OtherLib/WString.i
-
-# target to preprocess a source file
-Serial/OtherLib/WString.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Serial/OtherLib/WString.cpp.i
-.PHONY : Serial/OtherLib/WString.cpp.i
-
-Serial/OtherLib/WString.s: Serial/OtherLib/WString.cpp.s
-.PHONY : Serial/OtherLib/WString.s
+SourceCode/Bridge/Bridge.s: SourceCode/Bridge/Bridge.cpp.s
+.PHONY : SourceCode/Bridge/Bridge.s
 
 # target to generate assembly for a file
-Serial/OtherLib/WString.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Serial/OtherLib/WString.cpp.s
-.PHONY : Serial/OtherLib/WString.cpp.s
-
-Serial/OtherLib/bswap.obj: Serial/OtherLib/bswap.c.obj
-.PHONY : Serial/OtherLib/bswap.obj
-
-# target to build an object file
-Serial/OtherLib/bswap.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Serial/OtherLib/bswap.c.obj
-.PHONY : Serial/OtherLib/bswap.c.obj
-
-Serial/OtherLib/bswap.i: Serial/OtherLib/bswap.c.i
-.PHONY : Serial/OtherLib/bswap.i
-
-# target to preprocess a source file
-Serial/OtherLib/bswap.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Serial/OtherLib/bswap.c.i
-.PHONY : Serial/OtherLib/bswap.c.i
-
-Serial/OtherLib/bswap.s: Serial/OtherLib/bswap.c.s
-.PHONY : Serial/OtherLib/bswap.s
-
-# target to generate assembly for a file
-Serial/OtherLib/bswap.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Serial/OtherLib/bswap.c.s
-.PHONY : Serial/OtherLib/bswap.c.s
-
-Serial/OtherLib/stdlib_noniso.obj: Serial/OtherLib/stdlib_noniso.c.obj
-.PHONY : Serial/OtherLib/stdlib_noniso.obj
-
-# target to build an object file
-Serial/OtherLib/stdlib_noniso.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Serial/OtherLib/stdlib_noniso.c.obj
-.PHONY : Serial/OtherLib/stdlib_noniso.c.obj
-
-Serial/OtherLib/stdlib_noniso.i: Serial/OtherLib/stdlib_noniso.c.i
-.PHONY : Serial/OtherLib/stdlib_noniso.i
-
-# target to preprocess a source file
-Serial/OtherLib/stdlib_noniso.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Serial/OtherLib/stdlib_noniso.c.i
-.PHONY : Serial/OtherLib/stdlib_noniso.c.i
-
-Serial/OtherLib/stdlib_noniso.s: Serial/OtherLib/stdlib_noniso.c.s
-.PHONY : Serial/OtherLib/stdlib_noniso.s
-
-# target to generate assembly for a file
-Serial/OtherLib/stdlib_noniso.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/Serial/OtherLib/stdlib_noniso.c.s
-.PHONY : Serial/OtherLib/stdlib_noniso.c.s
+SourceCode/Bridge/Bridge.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2048.elf.dir\build.make CMakeFiles/2048.elf.dir/SourceCode/Bridge/Bridge.cpp.s
+.PHONY : SourceCode/Bridge/Bridge.cpp.s
 
 # Help Target
 help:
@@ -6985,39 +7753,15 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... 2048.elf
-	@echo ... BSP/LCD/lcd.obj
-	@echo ... BSP/LCD/lcd.i
-	@echo ... BSP/LCD/lcd.s
-	@echo ... BSP/SYSTEM/delay.obj
-	@echo ... BSP/SYSTEM/delay.i
-	@echo ... BSP/SYSTEM/delay.s
-	@echo ... BSP/SYSTEM/sys.obj
-	@echo ... BSP/SYSTEM/sys.i
-	@echo ... BSP/SYSTEM/sys.s
-	@echo ... BSP/Touch/24cxx.obj
-	@echo ... BSP/Touch/24cxx.i
-	@echo ... BSP/Touch/24cxx.s
-	@echo ... BSP/Touch/ctiic.obj
-	@echo ... BSP/Touch/ctiic.i
-	@echo ... BSP/Touch/ctiic.s
-	@echo ... BSP/Touch/ft5206.obj
-	@echo ... BSP/Touch/ft5206.i
-	@echo ... BSP/Touch/ft5206.s
-	@echo ... BSP/Touch/gt9xxx.obj
-	@echo ... BSP/Touch/gt9xxx.i
-	@echo ... BSP/Touch/gt9xxx.s
-	@echo ... BSP/Touch/myiic.obj
-	@echo ... BSP/Touch/myiic.i
-	@echo ... BSP/Touch/myiic.s
-	@echo ... BSP/Touch/touch.obj
-	@echo ... BSP/Touch/touch.i
-	@echo ... BSP/Touch/touch.s
-	@echo ... Bridge/Bridge.obj
-	@echo ... Bridge/Bridge.i
-	@echo ... Bridge/Bridge.s
+	@echo ... BSPtest/SDtest.obj
+	@echo ... BSPtest/SDtest.i
+	@echo ... BSPtest/SDtest.s
 	@echo ... Core/Src/dma.obj
 	@echo ... Core/Src/dma.i
 	@echo ... Core/Src/dma.s
+	@echo ... Core/Src/freertos.obj
+	@echo ... Core/Src/freertos.i
+	@echo ... Core/Src/freertos.s
 	@echo ... Core/Src/fsmc.obj
 	@echo ... Core/Src/fsmc.i
 	@echo ... Core/Src/fsmc.s
@@ -7027,9 +7771,18 @@ help:
 	@echo ... Core/Src/main.obj
 	@echo ... Core/Src/main.i
 	@echo ... Core/Src/main.s
+	@echo ... Core/Src/rng.obj
+	@echo ... Core/Src/rng.i
+	@echo ... Core/Src/rng.s
+	@echo ... Core/Src/sdio.obj
+	@echo ... Core/Src/sdio.i
+	@echo ... Core/Src/sdio.s
 	@echo ... Core/Src/stm32f4xx_hal_msp.obj
 	@echo ... Core/Src/stm32f4xx_hal_msp.i
 	@echo ... Core/Src/stm32f4xx_hal_msp.s
+	@echo ... Core/Src/stm32f4xx_hal_timebase_tim.obj
+	@echo ... Core/Src/stm32f4xx_hal_timebase_tim.i
+	@echo ... Core/Src/stm32f4xx_hal_timebase_tim.s
 	@echo ... Core/Src/stm32f4xx_it.obj
 	@echo ... Core/Src/stm32f4xx_it.i
 	@echo ... Core/Src/stm32f4xx_it.s
@@ -7046,6 +7799,36 @@ help:
 	@echo ... Core/Src/usart.i
 	@echo ... Core/Src/usart.s
 	@echo ... Core/Startup/startup_stm32f407zgtx.obj
+	@echo ... Drivers/BSP/LCD/lcd.obj
+	@echo ... Drivers/BSP/LCD/lcd.i
+	@echo ... Drivers/BSP/LCD/lcd.s
+	@echo ... Drivers/BSP/LCD/lcd_ex.obj
+	@echo ... Drivers/BSP/LCD/lcd_ex.i
+	@echo ... Drivers/BSP/LCD/lcd_ex.s
+	@echo ... Drivers/BSP/SYSTEM/delay.obj
+	@echo ... Drivers/BSP/SYSTEM/delay.i
+	@echo ... Drivers/BSP/SYSTEM/delay.s
+	@echo ... Drivers/BSP/SYSTEM/sys.obj
+	@echo ... Drivers/BSP/SYSTEM/sys.i
+	@echo ... Drivers/BSP/SYSTEM/sys.s
+	@echo ... Drivers/BSP/Touch/24cxx.obj
+	@echo ... Drivers/BSP/Touch/24cxx.i
+	@echo ... Drivers/BSP/Touch/24cxx.s
+	@echo ... Drivers/BSP/Touch/ctiic.obj
+	@echo ... Drivers/BSP/Touch/ctiic.i
+	@echo ... Drivers/BSP/Touch/ctiic.s
+	@echo ... Drivers/BSP/Touch/ft5206.obj
+	@echo ... Drivers/BSP/Touch/ft5206.i
+	@echo ... Drivers/BSP/Touch/ft5206.s
+	@echo ... Drivers/BSP/Touch/gt9xxx.obj
+	@echo ... Drivers/BSP/Touch/gt9xxx.i
+	@echo ... Drivers/BSP/Touch/gt9xxx.s
+	@echo ... Drivers/BSP/Touch/myiic.obj
+	@echo ... Drivers/BSP/Touch/myiic.i
+	@echo ... Drivers/BSP/Touch/myiic.s
+	@echo ... Drivers/BSP/Touch/touch.obj
+	@echo ... Drivers/BSP/Touch/touch.i
+	@echo ... Drivers/BSP/Touch/touch.s
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.obj
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.i
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.s
@@ -7085,6 +7868,12 @@ help:
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.obj
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.i
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.s
+	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.obj
+	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.i
+	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.s
+	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.obj
+	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.i
+	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.s
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.obj
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.i
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.s
@@ -7100,6 +7889,21 @@ help:
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.obj
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.i
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.s
+	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.obj
+	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.i
+	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.s
+	@echo ... FATFS/App/fatfs.obj
+	@echo ... FATFS/App/fatfs.i
+	@echo ... FATFS/App/fatfs.s
+	@echo ... FATFS/Target/bsp_driver_sd.obj
+	@echo ... FATFS/Target/bsp_driver_sd.i
+	@echo ... FATFS/Target/bsp_driver_sd.s
+	@echo ... FATFS/Target/fatfs_platform.obj
+	@echo ... FATFS/Target/fatfs_platform.i
+	@echo ... FATFS/Target/fatfs_platform.s
+	@echo ... FATFS/Target/sd_diskio.obj
+	@echo ... FATFS/Target/sd_diskio.i
+	@echo ... FATFS/Target/sd_diskio.s
 	@echo ... MiddleDevice/LVGL/examples/porting/lv_port_disp_template.obj
 	@echo ... MiddleDevice/LVGL/examples/porting/lv_port_disp_template.i
 	@echo ... MiddleDevice/LVGL/examples/porting/lv_port_disp_template.s
@@ -7802,6 +8606,24 @@ help:
 	@echo ... MiddleDevice/LVGLCPP/src/lvglpp/widgets/win/win.obj
 	@echo ... MiddleDevice/LVGLCPP/src/lvglpp/widgets/win/win.i
 	@echo ... MiddleDevice/LVGLCPP/src/lvglpp/widgets/win/win.s
+	@echo ... MiddleDevice/MyMiddleDevice/Serial/BaseLib/MyUsart.obj
+	@echo ... MiddleDevice/MyMiddleDevice/Serial/BaseLib/MyUsart.i
+	@echo ... MiddleDevice/MyMiddleDevice/Serial/BaseLib/MyUsart.s
+	@echo ... MiddleDevice/MyMiddleDevice/Serial/DataStream/inputStream.obj
+	@echo ... MiddleDevice/MyMiddleDevice/Serial/DataStream/inputStream.i
+	@echo ... MiddleDevice/MyMiddleDevice/Serial/DataStream/inputStream.s
+	@echo ... MiddleDevice/MyMiddleDevice/Serial/DataStream/outputStream.obj
+	@echo ... MiddleDevice/MyMiddleDevice/Serial/DataStream/outputStream.i
+	@echo ... MiddleDevice/MyMiddleDevice/Serial/DataStream/outputStream.s
+	@echo ... MiddleDevice/MyMiddleDevice/Serial/OtherLib/WString.obj
+	@echo ... MiddleDevice/MyMiddleDevice/Serial/OtherLib/WString.i
+	@echo ... MiddleDevice/MyMiddleDevice/Serial/OtherLib/WString.s
+	@echo ... MiddleDevice/MyMiddleDevice/Serial/OtherLib/bswap.obj
+	@echo ... MiddleDevice/MyMiddleDevice/Serial/OtherLib/bswap.i
+	@echo ... MiddleDevice/MyMiddleDevice/Serial/OtherLib/bswap.s
+	@echo ... MiddleDevice/MyMiddleDevice/Serial/OtherLib/stdlib_noniso.obj
+	@echo ... MiddleDevice/MyMiddleDevice/Serial/OtherLib/stdlib_noniso.i
+	@echo ... MiddleDevice/MyMiddleDevice/Serial/OtherLib/stdlib_noniso.s
 	@echo ... MiddleDevice/boot_anim_ascii/boot_anim_ascii.obj
 	@echo ... MiddleDevice/boot_anim_ascii/boot_anim_ascii.i
 	@echo ... MiddleDevice/boot_anim_ascii/boot_anim_ascii.s
@@ -7820,27 +8642,69 @@ help:
 	@echo ... MiddleDevice/mooncake/simplekv/simplekv.obj
 	@echo ... MiddleDevice/mooncake/simplekv/simplekv.i
 	@echo ... MiddleDevice/mooncake/simplekv/simplekv.s
+	@echo ... Middlewares/Third_Party/FatFs/src/diskio.obj
+	@echo ... Middlewares/Third_Party/FatFs/src/diskio.i
+	@echo ... Middlewares/Third_Party/FatFs/src/diskio.s
+	@echo ... Middlewares/Third_Party/FatFs/src/ff.obj
+	@echo ... Middlewares/Third_Party/FatFs/src/ff.i
+	@echo ... Middlewares/Third_Party/FatFs/src/ff.s
+	@echo ... Middlewares/Third_Party/FatFs/src/ff_gen_drv.obj
+	@echo ... Middlewares/Third_Party/FatFs/src/ff_gen_drv.i
+	@echo ... Middlewares/Third_Party/FatFs/src/ff_gen_drv.s
+	@echo ... Middlewares/Third_Party/FatFs/src/option/cc936.obj
+	@echo ... Middlewares/Third_Party/FatFs/src/option/cc936.i
+	@echo ... Middlewares/Third_Party/FatFs/src/option/cc936.s
+	@echo ... Middlewares/Third_Party/FatFs/src/option/syscall.obj
+	@echo ... Middlewares/Third_Party/FatFs/src/option/syscall.i
+	@echo ... Middlewares/Third_Party/FatFs/src/option/syscall.s
+	@echo ... Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.obj
+	@echo ... Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.i
+	@echo ... Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.s
+	@echo ... Middlewares/Third_Party/FreeRTOS/Source/croutine.obj
+	@echo ... Middlewares/Third_Party/FreeRTOS/Source/croutine.i
+	@echo ... Middlewares/Third_Party/FreeRTOS/Source/croutine.s
+	@echo ... Middlewares/Third_Party/FreeRTOS/Source/event_groups.obj
+	@echo ... Middlewares/Third_Party/FreeRTOS/Source/event_groups.i
+	@echo ... Middlewares/Third_Party/FreeRTOS/Source/event_groups.s
+	@echo ... Middlewares/Third_Party/FreeRTOS/Source/list.obj
+	@echo ... Middlewares/Third_Party/FreeRTOS/Source/list.i
+	@echo ... Middlewares/Third_Party/FreeRTOS/Source/list.s
+	@echo ... Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.obj
+	@echo ... Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.i
+	@echo ... Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.s
+	@echo ... Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.obj
+	@echo ... Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.i
+	@echo ... Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.s
+	@echo ... Middlewares/Third_Party/FreeRTOS/Source/queue.obj
+	@echo ... Middlewares/Third_Party/FreeRTOS/Source/queue.i
+	@echo ... Middlewares/Third_Party/FreeRTOS/Source/queue.s
+	@echo ... Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.obj
+	@echo ... Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.i
+	@echo ... Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.s
+	@echo ... Middlewares/Third_Party/FreeRTOS/Source/tasks.obj
+	@echo ... Middlewares/Third_Party/FreeRTOS/Source/tasks.i
+	@echo ... Middlewares/Third_Party/FreeRTOS/Source/tasks.s
+	@echo ... Middlewares/Third_Party/FreeRTOS/Source/timers.obj
+	@echo ... Middlewares/Third_Party/FreeRTOS/Source/timers.i
+	@echo ... Middlewares/Third_Party/FreeRTOS/Source/timers.s
+	@echo ... Myapplication/GAME2048/2048.obj
+	@echo ... Myapplication/GAME2048/2048.i
+	@echo ... Myapplication/GAME2048/2048.s
+	@echo ... Myapplication/GAME2048/Game2048APP.obj
+	@echo ... Myapplication/GAME2048/Game2048APP.i
+	@echo ... Myapplication/GAME2048/Game2048APP.s
+	@echo ... Myapplication/GAME2048/Game2048_paker.obj
+	@echo ... Myapplication/GAME2048/Game2048_paker.i
+	@echo ... Myapplication/GAME2048/Game2048_paker.s
 	@echo ... Myapplication/GAME2048/game.obj
 	@echo ... Myapplication/GAME2048/game.i
 	@echo ... Myapplication/GAME2048/game.s
-	@echo ... Serial/BaseLib/MyUsart.obj
-	@echo ... Serial/BaseLib/MyUsart.i
-	@echo ... Serial/BaseLib/MyUsart.s
-	@echo ... Serial/DataStream/inputStream.obj
-	@echo ... Serial/DataStream/inputStream.i
-	@echo ... Serial/DataStream/inputStream.s
-	@echo ... Serial/DataStream/outputStream.obj
-	@echo ... Serial/DataStream/outputStream.i
-	@echo ... Serial/DataStream/outputStream.s
-	@echo ... Serial/OtherLib/WString.obj
-	@echo ... Serial/OtherLib/WString.i
-	@echo ... Serial/OtherLib/WString.s
-	@echo ... Serial/OtherLib/bswap.obj
-	@echo ... Serial/OtherLib/bswap.i
-	@echo ... Serial/OtherLib/bswap.s
-	@echo ... Serial/OtherLib/stdlib_noniso.obj
-	@echo ... Serial/OtherLib/stdlib_noniso.i
-	@echo ... Serial/OtherLib/stdlib_noniso.s
+	@echo ... Myapplication/ManageApp.obj
+	@echo ... Myapplication/ManageApp.i
+	@echo ... Myapplication/ManageApp.s
+	@echo ... SourceCode/Bridge/Bridge.obj
+	@echo ... SourceCode/Bridge/Bridge.i
+	@echo ... SourceCode/Bridge/Bridge.s
 .PHONY : help
 
 

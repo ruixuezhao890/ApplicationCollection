@@ -141,7 +141,9 @@ void lv_port_disp_init(void)
 static void disp_init(void)
 {
     lcd_init();
-    lcd_display_dir(1);
+//    lcd_clear(RED);
+    lv_obj_t * btn=lv_scr_act();
+//    lcd_display_dir(1);
     /*You code here*/
 }
 

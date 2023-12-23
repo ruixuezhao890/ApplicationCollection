@@ -70,7 +70,9 @@ include_directories(Core/Inc Drivers/STM32F4xx_HAL_Driver/Inc Drivers/STM32F4xx_
 
 
         Middlewares/Third_Party/FatFs/src
-
+        Middlewares/Third_Party/FreeRTOS/Source/include
+        Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS
+        Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F
 
         Myapplication
         Myapplication/GAME2048
@@ -90,9 +92,9 @@ include_directories(Core/Inc Drivers/STM32F4xx_HAL_Driver/Inc Drivers/STM32F4xx_
         MiddleDevice/mooncake/input_system
         MiddleDevice/mooncake/simplekv
 
-        MiddleDevice/FreeRTOS
-        MiddleDevice/FreeRTOS/include
-        MiddleDevice/FreeRTOS/portable/GCC/ARM_CM4F
+#        MiddleDevice/FreeRTOS
+#        MiddleDevice/FreeRTOS/include
+#        MiddleDevice/FreeRTOS/portable/GCC/ARM_CM4F
 
 
 )
@@ -119,13 +121,17 @@ file(GLOB_RECURSE SOURCES "Core/*.*" "Drivers/*.*"
 
         "Middlewares/Third_Party/FatFs/src/*.*"
         "Middlewares/Third_Party/FatFs/src/option/*.*"
+        "Middlewares/Third_Party/FreeRTOS/Source/*.*"
+        "Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/*.*"
+        "Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/*.*"
+
 
         "Myapplication/GAME2048/*.*"
         "Myapplication/*.*"
 
-        "MiddleDevice/FreeRTOS/*.*"
-        "MiddleDevice/FreeRTOS/include/*.*"
-        "MiddleDevice/FreeRTOS/portable/GCC/ARM_CM4F/*.*"
+#        "MiddleDevice/FreeRTOS/*.*"
+#        "MiddleDevice/FreeRTOS/include/*.*"
+#        "MiddleDevice/FreeRTOS/portable/GCC/ARM_CM4F/*.*"
 
 
         "MiddleDevice/boot_anim_ascii/boot_anim_ascii.cpp"

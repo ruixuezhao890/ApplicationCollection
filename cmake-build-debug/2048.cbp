@@ -11,10 +11,10 @@
 				<Option working_dir="D:/CODE/STM32/Myapplication/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CODE/STM32/Myapplication/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CODE/STM32/Myapplication/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CODE/STM32/Myapplication/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CODE/STM32/Myapplication/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/MinGw8.1/mingw64/bin/mingw32-make.exe -f &quot;D:/CODE/STM32/Myapplication/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/MinGw8.1/mingw64/bin/mingw32-make.exe -f &quot;D:/CODE/STM32/Myapplication/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGw8.1/mingw64/bin/mingw32-make.exe -f &quot;D:/CODE/STM32/Myapplication/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGw8.1/mingw64/bin/mingw32-make.exe -f &quot;D:/CODE/STM32/Myapplication/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="2048.elf">
@@ -24,6 +24,9 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add option="-DARM_MATH_CM4"/>
+					<Add option="-DARM_MATH_MATRIX_CHECK"/>
+					<Add option="-DARM_MATH_ROUNDING"/>
 					<Add option="-DDEBUG"/>
 					<Add option="-DUSE_HAL_DRIVER"/>
 					<Add option="-DSTM32F407xx"/>
@@ -32,14 +35,25 @@
 					<Add directory="D:/CODE/STM32/Myapplication/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
 					<Add directory="D:/CODE/STM32/Myapplication/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
 					<Add directory="D:/CODE/STM32/Myapplication/Drivers/CMSIS/Include"/>
-					<Add directory="D:/CODE/STM32/Myapplication/Bridge"/>
-					<Add directory="D:/CODE/STM32/Myapplication/BSP/LCD"/>
-					<Add directory="D:/CODE/STM32/Myapplication/BSP/SYSTEM"/>
-					<Add directory="D:/CODE/STM32/Myapplication/BSP/Touch"/>
+					<Add directory="D:/CODE/STM32/Myapplication/BSPtest"/>
+					<Add directory="D:/CODE/STM32/Myapplication/SourceCode/Bridge"/>
+					<Add directory="D:/CODE/STM32/Myapplication/SourceCode/data"/>
+					<Add directory="D:/CODE/STM32/Myapplication/SourceCode/main"/>
+					<Add directory="D:/CODE/STM32/Myapplication/FreeRTOSTask"/>
+					<Add directory="D:/CODE/STM32/Myapplication/Drivers/BSP/LCD"/>
+					<Add directory="D:/CODE/STM32/Myapplication/Drivers/BSP/SYSTEM"/>
+					<Add directory="D:/CODE/STM32/Myapplication/Drivers/BSP/Touch"/>
+					<Add directory="D:/CODE/STM32/Myapplication/FATFS/App"/>
+					<Add directory="D:/CODE/STM32/Myapplication/FATFS/Target"/>
+					<Add directory="D:/CODE/STM32/Myapplication/Middlewares/Third_Party/FatFs/src"/>
+					<Add directory="D:/CODE/STM32/Myapplication/Middlewares/Third_Party/FreeRTOS/Source/include"/>
+					<Add directory="D:/CODE/STM32/Myapplication/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"/>
+					<Add directory="D:/CODE/STM32/Myapplication/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"/>
+					<Add directory="D:/CODE/STM32/Myapplication/Myapplication"/>
 					<Add directory="D:/CODE/STM32/Myapplication/Myapplication/GAME2048"/>
-					<Add directory="D:/CODE/STM32/Myapplication/Serial/BaseLib"/>
-					<Add directory="D:/CODE/STM32/Myapplication/Serial/DataStream"/>
-					<Add directory="D:/CODE/STM32/Myapplication/Serial/OtherLib"/>
+					<Add directory="D:/CODE/STM32/Myapplication/MiddleDevice/MyMiddleDevice/Serial/BaseLib"/>
+					<Add directory="D:/CODE/STM32/Myapplication/MiddleDevice/MyMiddleDevice/Serial/DataStream"/>
+					<Add directory="D:/CODE/STM32/Myapplication/MiddleDevice/MyMiddleDevice/Serial/OtherLib"/>
 					<Add directory="D:/CODE/STM32/Myapplication/MiddleDevice/LVGL"/>
 					<Add directory="D:/CODE/STM32/Myapplication/MiddleDevice/LVGL/src"/>
 					<Add directory="D:/CODE/STM32/Myapplication/MiddleDevice/LVGL/examples/porting"/>
@@ -50,8 +64,6 @@
 					<Add directory="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/app"/>
 					<Add directory="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/input_system"/>
 					<Add directory="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/simplekv"/>
-					<Add directory="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog"/>
-					<Add directory="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include"/>
 					<Add directory="d:\programfiles\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
 					<Add directory="d:\programfiles\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
 					<Add directory="d:\programfiles\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
@@ -60,10 +72,10 @@
 					<Add directory="d:\programfiles\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CODE/STM32/Myapplication/cmake-build-debug/Makefile&quot;  VERBOSE=1 2048.elf"/>
-					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CODE/STM32/Myapplication/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CODE/STM32/Myapplication/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CODE/STM32/Myapplication/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/MinGw8.1/mingw64/bin/mingw32-make.exe -f &quot;D:/CODE/STM32/Myapplication/cmake-build-debug/Makefile&quot;  VERBOSE=1 2048.elf"/>
+					<CompileFile command="D:/MinGw8.1/mingw64/bin/mingw32-make.exe -f &quot;D:/CODE/STM32/Myapplication/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGw8.1/mingw64/bin/mingw32-make.exe -f &quot;D:/CODE/STM32/Myapplication/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGw8.1/mingw64/bin/mingw32-make.exe -f &quot;D:/CODE/STM32/Myapplication/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="2048.elf/fast">
@@ -73,6 +85,9 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add option="-DARM_MATH_CM4"/>
+					<Add option="-DARM_MATH_MATRIX_CHECK"/>
+					<Add option="-DARM_MATH_ROUNDING"/>
 					<Add option="-DDEBUG"/>
 					<Add option="-DUSE_HAL_DRIVER"/>
 					<Add option="-DSTM32F407xx"/>
@@ -81,14 +96,25 @@
 					<Add directory="D:/CODE/STM32/Myapplication/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
 					<Add directory="D:/CODE/STM32/Myapplication/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
 					<Add directory="D:/CODE/STM32/Myapplication/Drivers/CMSIS/Include"/>
-					<Add directory="D:/CODE/STM32/Myapplication/Bridge"/>
-					<Add directory="D:/CODE/STM32/Myapplication/BSP/LCD"/>
-					<Add directory="D:/CODE/STM32/Myapplication/BSP/SYSTEM"/>
-					<Add directory="D:/CODE/STM32/Myapplication/BSP/Touch"/>
+					<Add directory="D:/CODE/STM32/Myapplication/BSPtest"/>
+					<Add directory="D:/CODE/STM32/Myapplication/SourceCode/Bridge"/>
+					<Add directory="D:/CODE/STM32/Myapplication/SourceCode/data"/>
+					<Add directory="D:/CODE/STM32/Myapplication/SourceCode/main"/>
+					<Add directory="D:/CODE/STM32/Myapplication/FreeRTOSTask"/>
+					<Add directory="D:/CODE/STM32/Myapplication/Drivers/BSP/LCD"/>
+					<Add directory="D:/CODE/STM32/Myapplication/Drivers/BSP/SYSTEM"/>
+					<Add directory="D:/CODE/STM32/Myapplication/Drivers/BSP/Touch"/>
+					<Add directory="D:/CODE/STM32/Myapplication/FATFS/App"/>
+					<Add directory="D:/CODE/STM32/Myapplication/FATFS/Target"/>
+					<Add directory="D:/CODE/STM32/Myapplication/Middlewares/Third_Party/FatFs/src"/>
+					<Add directory="D:/CODE/STM32/Myapplication/Middlewares/Third_Party/FreeRTOS/Source/include"/>
+					<Add directory="D:/CODE/STM32/Myapplication/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"/>
+					<Add directory="D:/CODE/STM32/Myapplication/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"/>
+					<Add directory="D:/CODE/STM32/Myapplication/Myapplication"/>
 					<Add directory="D:/CODE/STM32/Myapplication/Myapplication/GAME2048"/>
-					<Add directory="D:/CODE/STM32/Myapplication/Serial/BaseLib"/>
-					<Add directory="D:/CODE/STM32/Myapplication/Serial/DataStream"/>
-					<Add directory="D:/CODE/STM32/Myapplication/Serial/OtherLib"/>
+					<Add directory="D:/CODE/STM32/Myapplication/MiddleDevice/MyMiddleDevice/Serial/BaseLib"/>
+					<Add directory="D:/CODE/STM32/Myapplication/MiddleDevice/MyMiddleDevice/Serial/DataStream"/>
+					<Add directory="D:/CODE/STM32/Myapplication/MiddleDevice/MyMiddleDevice/Serial/OtherLib"/>
 					<Add directory="D:/CODE/STM32/Myapplication/MiddleDevice/LVGL"/>
 					<Add directory="D:/CODE/STM32/Myapplication/MiddleDevice/LVGL/src"/>
 					<Add directory="D:/CODE/STM32/Myapplication/MiddleDevice/LVGL/examples/porting"/>
@@ -99,8 +125,6 @@
 					<Add directory="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/app"/>
 					<Add directory="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/input_system"/>
 					<Add directory="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/simplekv"/>
-					<Add directory="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog"/>
-					<Add directory="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include"/>
 					<Add directory="d:\programfiles\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
 					<Add directory="d:\programfiles\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
 					<Add directory="d:\programfiles\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
@@ -109,91 +133,40 @@
 					<Add directory="d:\programfiles\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CODE/STM32/Myapplication/cmake-build-debug/Makefile&quot;  VERBOSE=1 2048.elf/fast"/>
-					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CODE/STM32/Myapplication/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CODE/STM32/Myapplication/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CODE/STM32/Myapplication/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/MinGw8.1/mingw64/bin/mingw32-make.exe -f &quot;D:/CODE/STM32/Myapplication/cmake-build-debug/Makefile&quot;  VERBOSE=1 2048.elf/fast"/>
+					<CompileFile command="D:/MinGw8.1/mingw64/bin/mingw32-make.exe -f &quot;D:/CODE/STM32/Myapplication/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGw8.1/mingw64/bin/mingw32-make.exe -f &quot;D:/CODE/STM32/Myapplication/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGw8.1/mingw64/bin/mingw32-make.exe -f &quot;D:/CODE/STM32/Myapplication/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="D:/CODE/STM32/Myapplication/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CODE/STM32/Myapplication/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CODE/STM32/Myapplication/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CODE/STM32/Myapplication/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CODE/STM32/Myapplication/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/MinGw8.1/mingw64/bin/mingw32-make.exe -f &quot;D:/CODE/STM32/Myapplication/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/MinGw8.1/mingw64/bin/mingw32-make.exe -f &quot;D:/CODE/STM32/Myapplication/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGw8.1/mingw64/bin/mingw32-make.exe -f &quot;D:/CODE/STM32/Myapplication/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGw8.1/mingw64/bin/mingw32-make.exe -f &quot;D:/CODE/STM32/Myapplication/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
 				<Option working_dir="D:/CODE/STM32/Myapplication/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CODE/STM32/Myapplication/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CODE/STM32/Myapplication/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CODE/STM32/Myapplication/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CODE/STM32/Myapplication/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/MinGw8.1/mingw64/bin/mingw32-make.exe -f &quot;D:/CODE/STM32/Myapplication/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/MinGw8.1/mingw64/bin/mingw32-make.exe -f &quot;D:/CODE/STM32/Myapplication/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGw8.1/mingw64/bin/mingw32-make.exe -f &quot;D:/CODE/STM32/Myapplication/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGw8.1/mingw64/bin/mingw32-make.exe -f &quot;D:/CODE/STM32/Myapplication/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/CODE/STM32/Myapplication/BSP/LCD/lcd.c">
+		<Unit filename="D:/CODE/STM32/Myapplication/BSPtest/SDtest.cpp">
 			<Option target="2048.elf"/>
 		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/BSP/LCD/lcd.h">
+		<Unit filename="D:/CODE/STM32/Myapplication/BSPtest/SDtest.h">
 			<Option target="2048.elf"/>
 		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/BSP/SYSTEM/delay.c">
-			<Option target="2048.elf"/>
-		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/BSP/SYSTEM/delay.h">
-			<Option target="2048.elf"/>
-		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/BSP/SYSTEM/sys.c">
-			<Option target="2048.elf"/>
-		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/BSP/SYSTEM/sys.h">
-			<Option target="2048.elf"/>
-		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/BSP/Touch/24cxx.c">
-			<Option target="2048.elf"/>
-		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/BSP/Touch/24cxx.h">
-			<Option target="2048.elf"/>
-		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/BSP/Touch/ctiic.c">
-			<Option target="2048.elf"/>
-		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/BSP/Touch/ctiic.h">
-			<Option target="2048.elf"/>
-		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/BSP/Touch/ft5206.c">
-			<Option target="2048.elf"/>
-		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/BSP/Touch/ft5206.h">
-			<Option target="2048.elf"/>
-		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/BSP/Touch/gt9xxx.c">
-			<Option target="2048.elf"/>
-		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/BSP/Touch/gt9xxx.h">
-			<Option target="2048.elf"/>
-		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/BSP/Touch/myiic.c">
-			<Option target="2048.elf"/>
-		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/BSP/Touch/myiic.h">
-			<Option target="2048.elf"/>
-		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/BSP/Touch/touch.c">
-			<Option target="2048.elf"/>
-		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/BSP/Touch/touch.h">
-			<Option target="2048.elf"/>
-		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/Bridge/Bridge.cpp">
-			<Option target="2048.elf"/>
-		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/Bridge/Bridge.h">
+		<Unit filename="D:/CODE/STM32/Myapplication/Core/Inc/FreeRTOSConfig.h">
 			<Option target="2048.elf"/>
 		</Unit>
 		<Unit filename="D:/CODE/STM32/Myapplication/Core/Inc/dma.h">
@@ -205,7 +178,19 @@
 		<Unit filename="D:/CODE/STM32/Myapplication/Core/Inc/gpio.h">
 			<Option target="2048.elf"/>
 		</Unit>
+		<Unit filename="D:/CODE/STM32/Myapplication/Core/Inc/i2c.h">
+			<Option target="2048.elf"/>
+		</Unit>
 		<Unit filename="D:/CODE/STM32/Myapplication/Core/Inc/main.h">
+			<Option target="2048.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/Myapplication/Core/Inc/rng.h">
+			<Option target="2048.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/Myapplication/Core/Inc/sdio.h">
+			<Option target="2048.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/Myapplication/Core/Inc/spi.h">
 			<Option target="2048.elf"/>
 		</Unit>
 		<Unit filename="D:/CODE/STM32/Myapplication/Core/Inc/stm32f4xx_hal_conf.h">
@@ -220,6 +205,9 @@
 		<Unit filename="D:/CODE/STM32/Myapplication/Core/Src/dma.c">
 			<Option target="2048.elf"/>
 		</Unit>
+		<Unit filename="D:/CODE/STM32/Myapplication/Core/Src/freertos.c">
+			<Option target="2048.elf"/>
+		</Unit>
 		<Unit filename="D:/CODE/STM32/Myapplication/Core/Src/fsmc.c">
 			<Option target="2048.elf"/>
 		</Unit>
@@ -229,7 +217,16 @@
 		<Unit filename="D:/CODE/STM32/Myapplication/Core/Src/main.c">
 			<Option target="2048.elf"/>
 		</Unit>
+		<Unit filename="D:/CODE/STM32/Myapplication/Core/Src/rng.c">
+			<Option target="2048.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/Myapplication/Core/Src/sdio.c">
+			<Option target="2048.elf"/>
+		</Unit>
 		<Unit filename="D:/CODE/STM32/Myapplication/Core/Src/stm32f4xx_hal_msp.c">
+			<Option target="2048.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/Myapplication/Core/Src/stm32f4xx_hal_timebase_tim.c">
 			<Option target="2048.elf"/>
 		</Unit>
 		<Unit filename="D:/CODE/STM32/Myapplication/Core/Src/stm32f4xx_it.c">
@@ -248,6 +245,69 @@
 			<Option target="2048.elf"/>
 		</Unit>
 		<Unit filename="D:/CODE/STM32/Myapplication/Core/Startup/startup_stm32f407zgtx.s">
+			<Option target="2048.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/Myapplication/Drivers/BSP/LCD/lcd.c">
+			<Option target="2048.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/Myapplication/Drivers/BSP/LCD/lcd.h">
+			<Option target="2048.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/Myapplication/Drivers/BSP/LCD/lcd_ex.c">
+			<Option target="2048.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/Myapplication/Drivers/BSP/LCD/lcd_ex.h">
+			<Option target="2048.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/Myapplication/Drivers/BSP/LCD/lcdfont.h">
+			<Option target="2048.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/Myapplication/Drivers/BSP/SYSTEM/delay.c">
+			<Option target="2048.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/Myapplication/Drivers/BSP/SYSTEM/delay.h">
+			<Option target="2048.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/Myapplication/Drivers/BSP/SYSTEM/sys.c">
+			<Option target="2048.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/Myapplication/Drivers/BSP/SYSTEM/sys.h">
+			<Option target="2048.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/Myapplication/Drivers/BSP/Touch/24cxx.c">
+			<Option target="2048.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/Myapplication/Drivers/BSP/Touch/24cxx.h">
+			<Option target="2048.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/Myapplication/Drivers/BSP/Touch/ctiic.c">
+			<Option target="2048.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/Myapplication/Drivers/BSP/Touch/ctiic.h">
+			<Option target="2048.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/Myapplication/Drivers/BSP/Touch/ft5206.c">
+			<Option target="2048.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/Myapplication/Drivers/BSP/Touch/ft5206.h">
+			<Option target="2048.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/Myapplication/Drivers/BSP/Touch/gt9xxx.c">
+			<Option target="2048.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/Myapplication/Drivers/BSP/Touch/gt9xxx.h">
+			<Option target="2048.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/Myapplication/Drivers/BSP/Touch/myiic.c">
+			<Option target="2048.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/Myapplication/Drivers/BSP/Touch/myiic.h">
+			<Option target="2048.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/Myapplication/Drivers/BSP/Touch/touch.c">
+			<Option target="2048.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/Myapplication/Drivers/BSP/Touch/touch.h">
 			<Option target="2048.elf"/>
 		</Unit>
 		<Unit filename="D:/CODE/STM32/Myapplication/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h">
@@ -376,6 +436,12 @@
 		<Unit filename="D:/CODE/STM32/Myapplication/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h">
 			<Option target="2048.elf"/>
 		</Unit>
+		<Unit filename="D:/CODE/STM32/Myapplication/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rng.h">
+			<Option target="2048.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/Myapplication/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sd.h">
+			<Option target="2048.elf"/>
+		</Unit>
 		<Unit filename="D:/CODE/STM32/Myapplication/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h">
 			<Option target="2048.elf"/>
 		</Unit>
@@ -410,6 +476,12 @@
 			<Option target="2048.elf"/>
 		</Unit>
 		<Unit filename="D:/CODE/STM32/Myapplication/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_rcc.h">
+			<Option target="2048.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/Myapplication/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_rng.h">
+			<Option target="2048.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/Myapplication/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_sdmmc.h">
 			<Option target="2048.elf"/>
 		</Unit>
 		<Unit filename="D:/CODE/STM32/Myapplication/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_system.h">
@@ -463,6 +535,12 @@
 		<Unit filename="D:/CODE/STM32/Myapplication/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c">
 			<Option target="2048.elf"/>
 		</Unit>
+		<Unit filename="D:/CODE/STM32/Myapplication/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c">
+			<Option target="2048.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/Myapplication/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c">
+			<Option target="2048.elf"/>
+		</Unit>
 		<Unit filename="D:/CODE/STM32/Myapplication/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c">
 			<Option target="2048.elf"/>
 		</Unit>
@@ -476,6 +554,36 @@
 			<Option target="2048.elf"/>
 		</Unit>
 		<Unit filename="D:/CODE/STM32/Myapplication/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c">
+			<Option target="2048.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/Myapplication/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c">
+			<Option target="2048.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/Myapplication/FATFS/App/fatfs.c">
+			<Option target="2048.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/Myapplication/FATFS/App/fatfs.h">
+			<Option target="2048.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/Myapplication/FATFS/Target/bsp_driver_sd.c">
+			<Option target="2048.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/Myapplication/FATFS/Target/bsp_driver_sd.h">
+			<Option target="2048.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/Myapplication/FATFS/Target/fatfs_platform.c">
+			<Option target="2048.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/Myapplication/FATFS/Target/fatfs_platform.h">
+			<Option target="2048.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/Myapplication/FATFS/Target/ffconf.h">
+			<Option target="2048.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/Myapplication/FATFS/Target/sd_diskio.c">
+			<Option target="2048.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/Myapplication/FATFS/Target/sd_diskio.h">
 			<Option target="2048.elf"/>
 		</Unit>
 		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/LVGL/examples/porting/lv_port_disp_template.c">
@@ -1861,6 +1969,45 @@
 		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/LVGLCPP/src/lvglpp/widgets/win/win.h">
 			<Option target="2048.elf"/>
 		</Unit>
+		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/MyMiddleDevice/Serial/BaseLib/MyUsart.cpp">
+			<Option target="2048.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/MyMiddleDevice/Serial/BaseLib/MyUsart.h">
+			<Option target="2048.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/MyMiddleDevice/Serial/BaseLib/UsartResources.h">
+			<Option target="2048.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/MyMiddleDevice/Serial/DataStream/inputStream.cpp">
+			<Option target="2048.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/MyMiddleDevice/Serial/DataStream/inputStream.h">
+			<Option target="2048.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/MyMiddleDevice/Serial/DataStream/outputStream.cpp">
+			<Option target="2048.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/MyMiddleDevice/Serial/DataStream/outputStream.h">
+			<Option target="2048.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/MyMiddleDevice/Serial/OtherLib/WString.cpp">
+			<Option target="2048.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/MyMiddleDevice/Serial/OtherLib/WString.h">
+			<Option target="2048.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/MyMiddleDevice/Serial/OtherLib/bswap.c">
+			<Option target="2048.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/MyMiddleDevice/Serial/OtherLib/bswap.h">
+			<Option target="2048.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/MyMiddleDevice/Serial/OtherLib/stdlib_noniso.c">
+			<Option target="2048.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/MyMiddleDevice/Serial/OtherLib/stdlib_noniso.h">
+			<Option target="2048.elf"/>
+		</Unit>
 		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/boot_anim_ascii/boot_anim_ascii.cpp">
 			<Option target="2048.elf"/>
 		</Unit>
@@ -1909,319 +2056,139 @@
 		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/simplekv/simplekv.h">
 			<Option target="2048.elf"/>
 		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/README.md">
+		<Unit filename="D:/CODE/STM32/Myapplication/Middlewares/Third_Party/FatFs/src/diskio.c">
 			<Option target="2048.elf"/>
 		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/async.h">
+		<Unit filename="D:/CODE/STM32/Myapplication/Middlewares/Third_Party/FatFs/src/diskio.h">
 			<Option target="2048.elf"/>
 		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/async_logger-inl.h">
+		<Unit filename="D:/CODE/STM32/Myapplication/Middlewares/Third_Party/FatFs/src/ff.c">
 			<Option target="2048.elf"/>
 		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/async_logger.h">
+		<Unit filename="D:/CODE/STM32/Myapplication/Middlewares/Third_Party/FatFs/src/ff.h">
 			<Option target="2048.elf"/>
 		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/cfg/argv.h">
+		<Unit filename="D:/CODE/STM32/Myapplication/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c">
 			<Option target="2048.elf"/>
 		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/cfg/env.h">
+		<Unit filename="D:/CODE/STM32/Myapplication/Middlewares/Third_Party/FatFs/src/ff_gen_drv.h">
 			<Option target="2048.elf"/>
 		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/cfg/helpers-inl.h">
+		<Unit filename="D:/CODE/STM32/Myapplication/Middlewares/Third_Party/FatFs/src/integer.h">
 			<Option target="2048.elf"/>
 		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/cfg/helpers.h">
+		<Unit filename="D:/CODE/STM32/Myapplication/Middlewares/Third_Party/FatFs/src/option/cc936.c">
 			<Option target="2048.elf"/>
 		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/common-inl.h">
+		<Unit filename="D:/CODE/STM32/Myapplication/Middlewares/Third_Party/FatFs/src/option/syscall.c">
 			<Option target="2048.elf"/>
 		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/common.h">
+		<Unit filename="D:/CODE/STM32/Myapplication/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c">
 			<Option target="2048.elf"/>
 		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/details/backtracer-inl.h">
+		<Unit filename="D:/CODE/STM32/Myapplication/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h">
 			<Option target="2048.elf"/>
 		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/details/backtracer.h">
+		<Unit filename="D:/CODE/STM32/Myapplication/Middlewares/Third_Party/FreeRTOS/Source/croutine.c">
 			<Option target="2048.elf"/>
 		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/details/circular_q.h">
+		<Unit filename="D:/CODE/STM32/Myapplication/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c">
 			<Option target="2048.elf"/>
 		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/details/console_globals.h">
+		<Unit filename="D:/CODE/STM32/Myapplication/Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h">
 			<Option target="2048.elf"/>
 		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/details/file_helper-inl.h">
+		<Unit filename="D:/CODE/STM32/Myapplication/Middlewares/Third_Party/FreeRTOS/Source/include/StackMacros.h">
 			<Option target="2048.elf"/>
 		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/details/file_helper.h">
+		<Unit filename="D:/CODE/STM32/Myapplication/Middlewares/Third_Party/FreeRTOS/Source/include/atomic.h">
 			<Option target="2048.elf"/>
 		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/details/fmt_helper.h">
+		<Unit filename="D:/CODE/STM32/Myapplication/Middlewares/Third_Party/FreeRTOS/Source/include/croutine.h">
 			<Option target="2048.elf"/>
 		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/details/log_msg-inl.h">
+		<Unit filename="D:/CODE/STM32/Myapplication/Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h">
 			<Option target="2048.elf"/>
 		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/details/log_msg.h">
+		<Unit filename="D:/CODE/STM32/Myapplication/Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h">
 			<Option target="2048.elf"/>
 		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/details/log_msg_buffer-inl.h">
+		<Unit filename="D:/CODE/STM32/Myapplication/Middlewares/Third_Party/FreeRTOS/Source/include/list.h">
 			<Option target="2048.elf"/>
 		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/details/log_msg_buffer.h">
+		<Unit filename="D:/CODE/STM32/Myapplication/Middlewares/Third_Party/FreeRTOS/Source/include/message_buffer.h">
 			<Option target="2048.elf"/>
 		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/details/mpmc_blocking_q.h">
+		<Unit filename="D:/CODE/STM32/Myapplication/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_prototypes.h">
 			<Option target="2048.elf"/>
 		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/details/null_mutex.h">
+		<Unit filename="D:/CODE/STM32/Myapplication/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h">
 			<Option target="2048.elf"/>
 		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/details/os-inl.h">
+		<Unit filename="D:/CODE/STM32/Myapplication/Middlewares/Third_Party/FreeRTOS/Source/include/portable.h">
 			<Option target="2048.elf"/>
 		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/details/os.h">
+		<Unit filename="D:/CODE/STM32/Myapplication/Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h">
 			<Option target="2048.elf"/>
 		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/details/periodic_worker-inl.h">
+		<Unit filename="D:/CODE/STM32/Myapplication/Middlewares/Third_Party/FreeRTOS/Source/include/queue.h">
 			<Option target="2048.elf"/>
 		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/details/periodic_worker.h">
+		<Unit filename="D:/CODE/STM32/Myapplication/Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h">
 			<Option target="2048.elf"/>
 		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/details/registry-inl.h">
+		<Unit filename="D:/CODE/STM32/Myapplication/Middlewares/Third_Party/FreeRTOS/Source/include/stack_macros.h">
 			<Option target="2048.elf"/>
 		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/details/registry.h">
+		<Unit filename="D:/CODE/STM32/Myapplication/Middlewares/Third_Party/FreeRTOS/Source/include/stream_buffer.h">
 			<Option target="2048.elf"/>
 		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/details/synchronous_factory.h">
+		<Unit filename="D:/CODE/STM32/Myapplication/Middlewares/Third_Party/FreeRTOS/Source/include/task.h">
 			<Option target="2048.elf"/>
 		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/details/tcp_client-windows.h">
+		<Unit filename="D:/CODE/STM32/Myapplication/Middlewares/Third_Party/FreeRTOS/Source/include/timers.h">
 			<Option target="2048.elf"/>
 		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/details/tcp_client.h">
+		<Unit filename="D:/CODE/STM32/Myapplication/Middlewares/Third_Party/FreeRTOS/Source/list.c">
 			<Option target="2048.elf"/>
 		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/details/thread_pool-inl.h">
+		<Unit filename="D:/CODE/STM32/Myapplication/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c">
 			<Option target="2048.elf"/>
 		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/details/thread_pool.h">
+		<Unit filename="D:/CODE/STM32/Myapplication/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h">
 			<Option target="2048.elf"/>
 		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/details/udp_client-windows.h">
+		<Unit filename="D:/CODE/STM32/Myapplication/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c">
 			<Option target="2048.elf"/>
 		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/details/udp_client.h">
+		<Unit filename="D:/CODE/STM32/Myapplication/Middlewares/Third_Party/FreeRTOS/Source/queue.c">
 			<Option target="2048.elf"/>
 		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/details/windows_include.h">
+		<Unit filename="D:/CODE/STM32/Myapplication/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c">
 			<Option target="2048.elf"/>
 		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/fmt/bin_to_hex.h">
+		<Unit filename="D:/CODE/STM32/Myapplication/Middlewares/Third_Party/FreeRTOS/Source/tasks.c">
 			<Option target="2048.elf"/>
 		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/fmt/bundled/args.h">
+		<Unit filename="D:/CODE/STM32/Myapplication/Middlewares/Third_Party/FreeRTOS/Source/timers.c">
 			<Option target="2048.elf"/>
 		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/fmt/bundled/chrono.h">
+		<Unit filename="D:/CODE/STM32/Myapplication/Myapplication/GAME2048/2048.c">
 			<Option target="2048.elf"/>
 		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/fmt/bundled/color.h">
+		<Unit filename="D:/CODE/STM32/Myapplication/Myapplication/GAME2048/2048.h">
 			<Option target="2048.elf"/>
 		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/fmt/bundled/compile.h">
+		<Unit filename="D:/CODE/STM32/Myapplication/Myapplication/GAME2048/Game2048APP.cpp">
 			<Option target="2048.elf"/>
 		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/fmt/bundled/core.h">
+		<Unit filename="D:/CODE/STM32/Myapplication/Myapplication/GAME2048/Game2048APP.h">
 			<Option target="2048.elf"/>
 		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/fmt/bundled/fmt.license.rst">
+		<Unit filename="D:/CODE/STM32/Myapplication/Myapplication/GAME2048/Game2048_paker.cpp">
 			<Option target="2048.elf"/>
 		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/fmt/bundled/format-inl.h">
-			<Option target="2048.elf"/>
-		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/fmt/bundled/format.h">
-			<Option target="2048.elf"/>
-		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/fmt/bundled/locale.h">
-			<Option target="2048.elf"/>
-		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/fmt/bundled/os.h">
-			<Option target="2048.elf"/>
-		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/fmt/bundled/ostream.h">
-			<Option target="2048.elf"/>
-		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/fmt/bundled/printf.h">
-			<Option target="2048.elf"/>
-		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/fmt/bundled/ranges.h">
-			<Option target="2048.elf"/>
-		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/fmt/bundled/std.h">
-			<Option target="2048.elf"/>
-		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/fmt/bundled/xchar.h">
-			<Option target="2048.elf"/>
-		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/fmt/chrono.h">
-			<Option target="2048.elf"/>
-		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/fmt/compile.h">
-			<Option target="2048.elf"/>
-		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/fmt/fmt.h">
-			<Option target="2048.elf"/>
-		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/fmt/ostr.h">
-			<Option target="2048.elf"/>
-		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/fmt/ranges.h">
-			<Option target="2048.elf"/>
-		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/fmt/std.h">
-			<Option target="2048.elf"/>
-		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/fmt/xchar.h">
-			<Option target="2048.elf"/>
-		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/formatter.h">
-			<Option target="2048.elf"/>
-		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/fwd.h">
-			<Option target="2048.elf"/>
-		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/logger-inl.h">
-			<Option target="2048.elf"/>
-		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/logger.h">
-			<Option target="2048.elf"/>
-		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/pattern_formatter-inl.h">
-			<Option target="2048.elf"/>
-		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/pattern_formatter.h">
-			<Option target="2048.elf"/>
-		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/sinks/android_sink.h">
-			<Option target="2048.elf"/>
-		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/sinks/ansicolor_sink-inl.h">
-			<Option target="2048.elf"/>
-		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/sinks/ansicolor_sink.h">
-			<Option target="2048.elf"/>
-		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/sinks/base_sink-inl.h">
-			<Option target="2048.elf"/>
-		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/sinks/base_sink.h">
-			<Option target="2048.elf"/>
-		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/sinks/basic_file_sink-inl.h">
-			<Option target="2048.elf"/>
-		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/sinks/basic_file_sink.h">
-			<Option target="2048.elf"/>
-		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/sinks/callback_sink.h">
-			<Option target="2048.elf"/>
-		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/sinks/daily_file_sink.h">
-			<Option target="2048.elf"/>
-		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/sinks/dist_sink.h">
-			<Option target="2048.elf"/>
-		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/sinks/dup_filter_sink.h">
-			<Option target="2048.elf"/>
-		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/sinks/hourly_file_sink.h">
-			<Option target="2048.elf"/>
-		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/sinks/kafka_sink.h">
-			<Option target="2048.elf"/>
-		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/sinks/mongo_sink.h">
-			<Option target="2048.elf"/>
-		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/sinks/msvc_sink.h">
-			<Option target="2048.elf"/>
-		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/sinks/null_sink.h">
-			<Option target="2048.elf"/>
-		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/sinks/ostream_sink.h">
-			<Option target="2048.elf"/>
-		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/sinks/qt_sinks.h">
-			<Option target="2048.elf"/>
-		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/sinks/ringbuffer_sink.h">
-			<Option target="2048.elf"/>
-		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/sinks/rotating_file_sink-inl.h">
-			<Option target="2048.elf"/>
-		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/sinks/rotating_file_sink.h">
-			<Option target="2048.elf"/>
-		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/sinks/sink-inl.h">
-			<Option target="2048.elf"/>
-		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/sinks/sink.h">
-			<Option target="2048.elf"/>
-		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/sinks/stdout_color_sinks-inl.h">
-			<Option target="2048.elf"/>
-		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/sinks/stdout_color_sinks.h">
-			<Option target="2048.elf"/>
-		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/sinks/stdout_sinks-inl.h">
-			<Option target="2048.elf"/>
-		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/sinks/stdout_sinks.h">
-			<Option target="2048.elf"/>
-		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/sinks/syslog_sink.h">
-			<Option target="2048.elf"/>
-		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/sinks/systemd_sink.h">
-			<Option target="2048.elf"/>
-		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/sinks/tcp_sink.h">
-			<Option target="2048.elf"/>
-		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/sinks/udp_sink.h">
-			<Option target="2048.elf"/>
-		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/sinks/win_eventlog_sink.h">
-			<Option target="2048.elf"/>
-		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/sinks/wincolor_sink-inl.h">
-			<Option target="2048.elf"/>
-		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/sinks/wincolor_sink.h">
-			<Option target="2048.elf"/>
-		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/spdlog-inl.h">
-			<Option target="2048.elf"/>
-		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/spdlog.h">
-			<Option target="2048.elf"/>
-		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/stopwatch.h">
-			<Option target="2048.elf"/>
-		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/tweakme.h">
-			<Option target="2048.elf"/>
-		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/MiddleDevice/mooncake/spdlog/include/spdlog/version.h">
+		<Unit filename="D:/CODE/STM32/Myapplication/Myapplication/GAME2048/Game2048_paker.h">
 			<Option target="2048.elf"/>
 		</Unit>
 		<Unit filename="D:/CODE/STM32/Myapplication/Myapplication/GAME2048/game.cpp">
@@ -2230,46 +2197,19 @@
 		<Unit filename="D:/CODE/STM32/Myapplication/Myapplication/GAME2048/game.h">
 			<Option target="2048.elf"/>
 		</Unit>
+		<Unit filename="D:/CODE/STM32/Myapplication/Myapplication/ManageApp.cpp">
+			<Option target="2048.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/Myapplication/Myapplication/ManageApp.h">
+			<Option target="2048.elf"/>
+		</Unit>
 		<Unit filename="D:/CODE/STM32/Myapplication/STM32F407ZGTX_FLASH.ld">
 			<Option target="2048.elf"/>
 		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/Serial/BaseLib/MyUsart.cpp">
+		<Unit filename="D:/CODE/STM32/Myapplication/SourceCode/Bridge/Bridge.cpp">
 			<Option target="2048.elf"/>
 		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/Serial/BaseLib/MyUsart.h">
-			<Option target="2048.elf"/>
-		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/Serial/BaseLib/UsartResources.h">
-			<Option target="2048.elf"/>
-		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/Serial/DataStream/inputStream.cpp">
-			<Option target="2048.elf"/>
-		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/Serial/DataStream/inputStream.h">
-			<Option target="2048.elf"/>
-		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/Serial/DataStream/outputStream.cpp">
-			<Option target="2048.elf"/>
-		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/Serial/DataStream/outputStream.h">
-			<Option target="2048.elf"/>
-		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/Serial/OtherLib/WString.cpp">
-			<Option target="2048.elf"/>
-		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/Serial/OtherLib/WString.h">
-			<Option target="2048.elf"/>
-		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/Serial/OtherLib/bswap.c">
-			<Option target="2048.elf"/>
-		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/Serial/OtherLib/bswap.h">
-			<Option target="2048.elf"/>
-		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/Serial/OtherLib/stdlib_noniso.c">
-			<Option target="2048.elf"/>
-		</Unit>
-		<Unit filename="D:/CODE/STM32/Myapplication/Serial/OtherLib/stdlib_noniso.h">
+		<Unit filename="D:/CODE/STM32/Myapplication/SourceCode/Bridge/Bridge.h">
 			<Option target="2048.elf"/>
 		</Unit>
 		<Unit filename="D:/CODE/STM32/Myapplication/CMakeLists.txt">

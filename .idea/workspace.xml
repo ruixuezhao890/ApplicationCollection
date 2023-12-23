@@ -20,149 +20,314 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e9d2009-08e5-410a-9600-e45d46b9335f" name="更改" comment="增加README文件对项目的介绍">
-      <change afterPath="$PROJECT_DIR$/Drivers/BSP/LCD/lcd_ex.h" afterDir="false" />
+    <list default="true" id="6e9d2009-08e5-410a-9600-e45d46b9335f" name="更改" comment="更改为cubemx生成的freertos使用自己的经常需要改动代码 ，添加了fatfs文件管理系统">
+      <change afterPath="$PROJECT_DIR$/Myapplication/GAME2048/Game2048APP.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Myapplication/GAME2048/Game2048APP.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Myapplication/GAME2048/Game2048_paker.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Myapplication/GAME2048/Game2048_paker.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.cproject" beforeDir="false" afterPath="$PROJECT_DIR$/.cproject" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.mxproject" beforeDir="false" afterPath="$PROJECT_DIR$/.mxproject" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BSP/LCD/lcd.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BSP/LCD/lcd.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BSP/LCD/lcd_ex.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BSP/LCD/lcdfont.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BSP/SYSTEM/delay.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BSP/SYSTEM/delay.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BSP/SYSTEM/sys.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BSP/SYSTEM/sys.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BSP/Touch/24cxx.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BSP/Touch/24cxx.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BSP/Touch/ctiic.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BSP/Touch/ctiic.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BSP/Touch/ft5206.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BSP/Touch/ft5206.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BSP/Touch/gt9xxx.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BSP/Touch/gt9xxx.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BSP/Touch/myiic.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BSP/Touch/myiic.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BSP/Touch/touch.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BSP/Touch/touch.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bridge/Bridge.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bridge/Bridge.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists_template.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists_template.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/Inc/stm32f4xx_hal_conf.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Inc/stm32f4xx_hal_conf.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/stm32f4xx_it.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Inc/stm32f4xx_it.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Src/dma.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/dma.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Src/gpio.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/gpio.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Src/main.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Src/stm32f4xx_hal_msp.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/stm32f4xx_hal_msp.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Src/stm32f4xx_it.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/stm32f4xx_it.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Src/usart.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/usart.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MIddleware/FreeRTOS/FreeRTOSConfig.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MIddleware/FreeRTOS/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MIddleware/FreeRTOS/croutine.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MIddleware/FreeRTOS/event_groups.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MIddleware/FreeRTOS/include/FreeRTOS.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MIddleware/FreeRTOS/include/StackMacros.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MIddleware/FreeRTOS/include/atomic.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MIddleware/FreeRTOS/include/croutine.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MIddleware/FreeRTOS/include/deprecated_definitions.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MIddleware/FreeRTOS/include/event_groups.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MIddleware/FreeRTOS/include/list.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MIddleware/FreeRTOS/include/message_buffer.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MIddleware/FreeRTOS/include/mpu_prototypes.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MIddleware/FreeRTOS/include/mpu_wrappers.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MIddleware/FreeRTOS/include/portable.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MIddleware/FreeRTOS/include/projdefs.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MIddleware/FreeRTOS/include/queue.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MIddleware/FreeRTOS/include/semphr.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MIddleware/FreeRTOS/include/stack_macros.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MIddleware/FreeRTOS/include/stdint.readme" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MIddleware/FreeRTOS/include/stream_buffer.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MIddleware/FreeRTOS/include/task.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MIddleware/FreeRTOS/include/timers.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MIddleware/FreeRTOS/list.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MIddleware/FreeRTOS/portable/GCC/ARM_CM4F/port.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MIddleware/FreeRTOS/portable/GCC/ARM_CM4F/portmacro.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MIddleware/FreeRTOS/portable/Keil/See-also-the-RVDS-directory.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MIddleware/FreeRTOS/portable/MemMang/heap_4.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MIddleware/FreeRTOS/queue.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MIddleware/FreeRTOS/stream_buffer.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MIddleware/FreeRTOS/tasks.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MIddleware/FreeRTOS/timers.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MiddleDevice/LVGL/examples/porting/lv_port_disp_template.c" beforeDir="false" afterPath="$PROJECT_DIR$/MiddleDevice/LVGL/examples/porting/lv_port_disp_template.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiddleDevice/LVGL/lv_conf.h" beforeDir="false" afterPath="$PROJECT_DIR$/MiddleDevice/LVGL/lv_conf.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MiddleDevice/LVGLCPP/LVGLINC.h" beforeDir="false" afterPath="$PROJECT_DIR$/MiddleDevice/LVGLCPP/LVGLINC.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MiddleDevice/LVGLCPP/src/lvglpp/core/object.h" beforeDir="false" afterPath="$PROJECT_DIR$/MiddleDevice/LVGLCPP/src/lvglpp/core/object.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Myapplication.ioc" beforeDir="false" afterPath="$PROJECT_DIR$/Myapplication.ioc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myapplication/test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Myapplication/test.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myapplication/test.h" beforeDir="false" afterPath="$PROJECT_DIR$/Myapplication/test.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Serial/BaseLib/MyUsart.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Serial/BaseLib/MyUsart.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Serial/BaseLib/UsartResources.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Serial/DataStream/inputStream.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Serial/DataStream/inputStream.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Serial/DataStream/outputStream.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Serial/DataStream/outputStream.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Serial/OtherLib/WString.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Serial/OtherLib/WString.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Serial/OtherLib/bswap.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Serial/OtherLib/bswap.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Serial/OtherLib/stdlib_noniso.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Serial/OtherLib/stdlib_noniso.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task/FreeTask.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task/FreeTask.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-c3359113a6ab3470febb.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2023-12-14T16-05-02-0310.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-2048.elf-Debug-dd26044ed2e46b058ed2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Myapplication/GAME2048/game.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Myapplication/GAME2048/game.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Myapplication/GAME2048/game.h" beforeDir="false" afterPath="$PROJECT_DIR$/Myapplication/GAME2048/game.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Myapplication/test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Myapplication/ManageApp.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Myapplication/test.h" beforeDir="false" afterPath="$PROJECT_DIR$/Myapplication/ManageApp.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cache-v2-f9bc909777da090922a0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-48eadf31a0cf9d737994.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/2048.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/2048.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/2048.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/2048.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/2048.elf" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/2048.elf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/2048.hex" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/2048.hex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/2048.map" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/2048.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/BSP/LCD/lcd.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/BSP/SYSTEM/delay.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/BSP/SYSTEM/sys.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/BSP/Touch/24cxx.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/BSP/Touch/ctiic.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/BSP/Touch/ft5206.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/BSP/Touch/gt9xxx.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/BSP/Touch/myiic.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/BSP/Touch/touch.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/Bridge/Bridge.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/Core/Src/dma.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/Core/Src/dma.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/Core/Src/gpio.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/Core/Src/gpio.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/Core/Src/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/Core/Src/main.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/Core/Src/stm32f4xx_it.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/Core/Src/stm32f4xx_it.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/Core/Src/usart.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/Core/Src/usart.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MIddleware/FreeRTOS/croutine.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MIddleware/FreeRTOS/event_groups.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MIddleware/FreeRTOS/list.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MIddleware/FreeRTOS/portable/GCC/ARM_CM4F/port.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MIddleware/FreeRTOS/portable/MemMang/heap_4.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MIddleware/FreeRTOS/queue.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MIddleware/FreeRTOS/stream_buffer.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MIddleware/FreeRTOS/tasks.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MIddleware/FreeRTOS/timers.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/examples/porting/lv_port_disp_template.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/examples/porting/lv_port_disp_template.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/examples/porting/lv_port_indev_template.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/examples/porting/lv_port_indev_template.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/hal/lv_hal_tick.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/hal/lv_hal_tick.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/mooncake/mooncake.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/mooncake/mooncake.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/Myapplication/GAME2048/game.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/Myapplication/GAME2048/game.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/Myapplication/test.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/Myapplication/test.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/Serial/BaseLib/MyUsart.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/Serial/DataStream/inputStream.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/Serial/DataStream/outputStream.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/Serial/OtherLib/WString.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/Serial/OtherLib/bswap.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/Serial/OtherLib/stdlib_noniso.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/Task/FreeTask.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/Core/Src/dma.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/Core/Src/fsmc.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/Core/Src/gpio.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/Core/Src/main.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/Core/Src/stm32f4xx_it.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/Core/Src/syscalls.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/Core/Src/sysmem.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/Core/Src/system_stm32f4xx.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/Core/Src/usart.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/Core/Startup/startup_stm32f407zgtx.s.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/examples/porting/lv_port_disp_template.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/examples/porting/lv_port_fs_template.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/examples/porting/lv_port_indev_template.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/core/lv_disp.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/core/lv_event.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/core/lv_group.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/core/lv_indev.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/core/lv_indev_scroll.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/core/lv_obj.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/core/lv_obj_class.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/core/lv_obj_draw.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/core/lv_obj_pos.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/core/lv_obj_scroll.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/core/lv_obj_style.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/core/lv_obj_style_gen.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/core/lv_obj_tree.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/core/lv_refr.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/core/lv_theme.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/draw/arm2d/lv_gpu_arm2d.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/draw/lv_draw.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/draw/lv_draw_arc.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/draw/lv_draw_img.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/draw/lv_draw_label.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/draw/lv_draw_layer.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/draw/lv_draw_line.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/draw/lv_draw_mask.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/draw/lv_draw_rect.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/draw/lv_draw_transform.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/draw/lv_draw_triangle.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/draw/lv_img_buf.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/draw/lv_img_cache.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/draw/lv_img_decoder.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/draw/nxp/lv_gpu_nxp.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/draw/nxp/pxp/lv_draw_pxp_blend.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/draw/nxp/vglite/lv_draw_vglite_arc.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/draw/nxp/vglite/lv_draw_vglite_blend.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/draw/nxp/vglite/lv_draw_vglite_rect.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/draw/nxp/vglite/lv_gpu_nxp_vglite.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/draw/sdl/lv_draw_sdl.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/draw/sdl/lv_draw_sdl_arc.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/draw/sdl/lv_draw_sdl_bg.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/draw/sdl/lv_draw_sdl_composite.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/draw/sdl/lv_draw_sdl_img.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/draw/sdl/lv_draw_sdl_label.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/draw/sdl/lv_draw_sdl_layer.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/draw/sdl/lv_draw_sdl_line.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/draw/sdl/lv_draw_sdl_mask.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/draw/sdl/lv_draw_sdl_polygon.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/draw/sdl/lv_draw_sdl_rect.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/draw/sdl/lv_draw_sdl_stack_blur.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/draw/sdl/lv_draw_sdl_texture_cache.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/draw/sdl/lv_draw_sdl_utils.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/draw/sw/lv_draw_sw.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/draw/sw/lv_draw_sw_arc.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/draw/sw/lv_draw_sw_blend.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/draw/sw/lv_draw_sw_dither.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/draw/sw/lv_draw_sw_gradient.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/draw/sw/lv_draw_sw_img.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/draw/sw/lv_draw_sw_layer.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/draw/sw/lv_draw_sw_letter.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/draw/sw/lv_draw_sw_line.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/draw/sw/lv_draw_sw_polygon.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/draw/sw/lv_draw_sw_rect.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/draw/sw/lv_draw_sw_transform.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/extra/layouts/flex/lv_flex.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/extra/layouts/grid/lv_grid.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/extra/libs/bmp/lv_bmp.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/extra/libs/ffmpeg/lv_ffmpeg.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/extra/libs/freetype/lv_freetype.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/extra/libs/fsdrv/lv_fs_fatfs.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/extra/libs/fsdrv/lv_fs_posix.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/extra/libs/fsdrv/lv_fs_stdio.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/extra/libs/fsdrv/lv_fs_win32.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/extra/libs/gif/gifdec.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/extra/libs/gif/lv_gif.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/extra/libs/png/lodepng.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/extra/libs/png/lv_png.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/extra/libs/qrcode/lv_qrcode.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/extra/libs/qrcode/qrcodegen.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/extra/libs/rlottie/lv_rlottie.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/extra/libs/sjpg/lv_sjpg.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/extra/libs/sjpg/tjpgd.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/extra/lv_extra.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/extra/others/fragment/lv_fragment.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/extra/others/fragment/lv_fragment_manager.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/extra/others/gridnav/lv_gridnav.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/extra/others/ime/lv_ime_pinyin.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/extra/others/imgfont/lv_imgfont.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/extra/others/monkey/lv_monkey.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/extra/others/msg/lv_msg.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/extra/others/snapshot/lv_snapshot.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/extra/themes/basic/lv_theme_basic.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/extra/themes/default/lv_theme_default.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/extra/themes/mono/lv_theme_mono.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/extra/widgets/animimg/lv_animimg.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/extra/widgets/calendar/lv_calendar.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/extra/widgets/calendar/lv_calendar_header_arrow.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/extra/widgets/chart/lv_chart.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/extra/widgets/colorwheel/lv_colorwheel.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/extra/widgets/imgbtn/lv_imgbtn.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/extra/widgets/keyboard/lv_keyboard.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/extra/widgets/led/lv_led.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/extra/widgets/list/lv_list.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/extra/widgets/menu/lv_menu.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/extra/widgets/meter/lv_meter.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/extra/widgets/msgbox/lv_msgbox.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/extra/widgets/span/lv_span.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/extra/widgets/spinbox/lv_spinbox.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/extra/widgets/spinner/lv_spinner.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/extra/widgets/tabview/lv_tabview.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/extra/widgets/tileview/lv_tileview.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/extra/widgets/win/lv_win.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/font/lv_font.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/font/lv_font_dejavu_16_persian_hebrew.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/font/lv_font_fmt_txt.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/font/lv_font_loader.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/font/lv_font_montserrat_10.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/font/lv_font_montserrat_12.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/font/lv_font_montserrat_12_subpx.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/font/lv_font_montserrat_14.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/font/lv_font_montserrat_16.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/font/lv_font_montserrat_18.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/font/lv_font_montserrat_20.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/font/lv_font_montserrat_22.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/font/lv_font_montserrat_24.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/font/lv_font_montserrat_26.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/font/lv_font_montserrat_28.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/font/lv_font_montserrat_28_compressed.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/font/lv_font_montserrat_30.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/font/lv_font_montserrat_32.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/font/lv_font_montserrat_34.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/font/lv_font_montserrat_36.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/font/lv_font_montserrat_38.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/font/lv_font_montserrat_40.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/font/lv_font_montserrat_42.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/font/lv_font_montserrat_44.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/font/lv_font_montserrat_46.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/font/lv_font_montserrat_48.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/font/lv_font_montserrat_8.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/font/lv_font_simsun_16_cjk.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/font/lv_font_unscii_16.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/font/lv_font_unscii_8.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/hal/lv_hal_disp.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/hal/lv_hal_indev.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/hal/lv_hal_tick.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/misc/lv_anim.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/misc/lv_anim_timeline.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/misc/lv_area.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/misc/lv_async.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/misc/lv_bidi.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/misc/lv_color.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/misc/lv_fs.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/misc/lv_gc.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/misc/lv_ll.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/misc/lv_log.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/misc/lv_lru.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/misc/lv_math.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/misc/lv_mem.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/misc/lv_printf.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/misc/lv_style.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/misc/lv_style_gen.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/misc/lv_templ.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/misc/lv_timer.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/misc/lv_tlsf.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/misc/lv_txt.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/misc/lv_txt_ap.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/misc/lv_utils.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/widgets/lv_arc.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/widgets/lv_bar.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/widgets/lv_btn.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/widgets/lv_btnmatrix.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/widgets/lv_canvas.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/widgets/lv_checkbox.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/widgets/lv_dropdown.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/widgets/lv_img.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/widgets/lv_label.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/widgets/lv_line.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/widgets/lv_objx_templ.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/widgets/lv_roller.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/widgets/lv_slider.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/widgets/lv_switch.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/widgets/lv_table.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGL/src/widgets/lv_textarea.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGLCPP/src/lvglpp/core/display.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGLCPP/src/lvglpp/core/event.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGLCPP/src/lvglpp/core/group.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGLCPP/src/lvglpp/core/indev.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGLCPP/src/lvglpp/core/object.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGLCPP/src/lvglpp/core/theme.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGLCPP/src/lvglpp/draw/desc.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGLCPP/src/lvglpp/draw/image.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGLCPP/src/lvglpp/draw/mask.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGLCPP/src/lvglpp/font/font.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGLCPP/src/lvglpp/misc/anim.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGLCPP/src/lvglpp/misc/area.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGLCPP/src/lvglpp/misc/color.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGLCPP/src/lvglpp/misc/fs.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGLCPP/src/lvglpp/misc/style.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGLCPP/src/lvglpp/misc/timer.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGLCPP/src/lvglpp/widgets/animimg/animimg.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGLCPP/src/lvglpp/widgets/arc/arc.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGLCPP/src/lvglpp/widgets/bar/bar.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGLCPP/src/lvglpp/widgets/btnmatrix/btnmatrix.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGLCPP/src/lvglpp/widgets/calendar/calendar.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGLCPP/src/lvglpp/widgets/canvas/canvas.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGLCPP/src/lvglpp/widgets/chart/chart.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGLCPP/src/lvglpp/widgets/checkbox/checkbox.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGLCPP/src/lvglpp/widgets/colorwheel/colorwheel.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGLCPP/src/lvglpp/widgets/dropdown/dropdown.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGLCPP/src/lvglpp/widgets/image/image.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGLCPP/src/lvglpp/widgets/imgbtn/imgbtn.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGLCPP/src/lvglpp/widgets/keyboard/keyboard.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGLCPP/src/lvglpp/widgets/label/label.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGLCPP/src/lvglpp/widgets/led/led.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGLCPP/src/lvglpp/widgets/line/line.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGLCPP/src/lvglpp/widgets/list/list.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGLCPP/src/lvglpp/widgets/menu/menu.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGLCPP/src/lvglpp/widgets/meter/meter.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGLCPP/src/lvglpp/widgets/msgbox/msgbox.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGLCPP/src/lvglpp/widgets/roller/roller.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGLCPP/src/lvglpp/widgets/slider/slider.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGLCPP/src/lvglpp/widgets/span/span.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGLCPP/src/lvglpp/widgets/spinbox/spinbox.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGLCPP/src/lvglpp/widgets/spinner/spinner.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGLCPP/src/lvglpp/widgets/table/table.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGLCPP/src/lvglpp/widgets/tabview/tabview.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGLCPP/src/lvglpp/widgets/textarea/textarea.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGLCPP/src/lvglpp/widgets/tileview/tileview.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/LVGLCPP/src/lvglpp/widgets/win/win.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/boot_anim_ascii/boot_anim_ascii.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/mooncake/app/app_manager.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/mooncake/app/app_register.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/mooncake/input_system/input_device_register.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/mooncake/mooncake.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/MiddleDevice/mooncake/simplekv/simplekv.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/Myapplication/GAME2048/game.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2048.elf.dir/Myapplication/test.cpp.obj" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.26.4/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.26.4/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.26.4/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.26.4/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -229,11 +394,6 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="OCD 2048" type="com.jetbrains.cidr.embedded.openocd.conf.type" factoryName="com.jetbrains.cidr.embedded.openocd.conf.factory" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="2048" TARGET_NAME="2048.elf" CONFIG_NAME="Debug" version="1" RUN_TARGET_PROJECT_NAME="2048" RUN_TARGET_NAME="2048.elf">
       <openocd version="1" gdb-port="3333" telnet-port="4444" board-config="board/0_STM32F407ZG_StLink.cfg" reset-type="INIT" download-type="UPDATED_ONLY">
         <debugger kind="GDB" isBundled="true" />
@@ -276,7 +436,18 @@
       <workItem from="1702567633942" duration="5746000" />
       <workItem from="1702607743952" duration="2441000" />
       <workItem from="1702727637224" duration="5358000" />
-      <workItem from="1702783088231" duration="12992000" />
+      <workItem from="1702783088231" duration="13797000" />
+      <workItem from="1702879756499" duration="1822000" />
+      <workItem from="1702902147344" duration="5109000" />
+      <workItem from="1702949058991" duration="1659000" />
+      <workItem from="1702959117601" duration="11515000" />
+      <workItem from="1703035912136" duration="5375000" />
+      <workItem from="1703059503735" duration="1551000" />
+      <workItem from="1703128735755" duration="51000" />
+      <workItem from="1703215409371" duration="1880000" />
+      <workItem from="1703217335250" duration="3374000" />
+      <workItem from="1703250334053" duration="51000" />
+      <workItem from="1703296740060" duration="2372000" />
     </task>
     <task id="LOCAL-00001" summary="完成FreeRTOS移植以及LVGL移植，添加应用程序管理框架mooncake程序">
       <option name="closed" value="true" />
@@ -294,7 +465,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702610301452</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="更改为cubemx生成的freertos使用自己的经常需要改动代码 ，添加了fatfs文件管理系统">
+      <option name="closed" value="true" />
+      <created>1702817593946</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1702817593946</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -320,15 +499,16 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="完成FreeRTOS移植以及LVGL移植，添加应用程序管理框架mooncake程序" />
     <MESSAGE value="增加README文件对项目的介绍" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加README文件对项目的介绍" />
+    <MESSAGE value="更改为cubemx生成的freertos使用自己的经常需要改动代码 ，添加了fatfs文件管理系统" />
+    <option name="LAST_COMMIT_MESSAGE" value="更改为cubemx生成的freertos使用自己的经常需要改动代码 ，添加了fatfs文件管理系统" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Drivers/BSP/LCD/lcd.c</url>
-          <line>749</line>
-          <option name="timeStamp" value="6" />
+          <url>file://$PROJECT_DIR$/Myapplication/GAME2048/Game2048APP.cpp</url>
+          <line>82</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

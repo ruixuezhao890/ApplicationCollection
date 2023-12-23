@@ -272,7 +272,7 @@ namespace lvgl::core {
          *  \param user_data: custom user data.
          */
         template <class T> void add_event_cb(lv_event_cb_t event_cb, lv_event_code_t filter,
-                                             const T & user_data) {
+                                              T & user_data) {
             lv_obj_add_event_cb(this->raw_ptr(), event_cb, filter, static_cast<void*>(&user_data));
         }
 
