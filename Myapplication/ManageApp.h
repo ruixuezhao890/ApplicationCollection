@@ -23,7 +23,18 @@ extern "C"
 {
 #endif
 /*______________________类的声明在这下面________________:*/
-extern Mooncake mooncake;
+    enum Transfer_APP_statu{
+        StartAPP=1,
+        CloseAPP,
+        DestoryAPP,
+    };
+class DesktopInitiator:public Mooncake{
+    protected:
+    static void DrawStatusbar();
+    void DrawAPPIcon();
+    public:
+    };
+extern DesktopInitiator mooncake;
 #ifdef __cplusplus
 }
 #endif

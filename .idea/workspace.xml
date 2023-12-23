@@ -22,17 +22,8 @@
   <component name="ChangeListManager">
     <list default="true" id="6e9d2009-08e5-410a-9600-e45d46b9335f" name="更改" comment="增加2048游戏本体，以及增加两个任务的堆栈大小">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myapplication.ioc" beforeDir="false" afterPath="$PROJECT_DIR$/Myapplication.ioc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myapplication/GAME2048/Game2048APP.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Myapplication/GAME2048/Game2048APP.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Myapplication/ManageApp.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Myapplication/ManageApp.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/2048.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/2048.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/2048.elf" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/2048.elf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/2048.hex" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/2048.hex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/2048.map" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/2048.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.26.4/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.26.4/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.26.4/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.26.4/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Myapplication/ManageApp.h" beforeDir="false" afterPath="$PROJECT_DIR$/Myapplication/ManageApp.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,12 +85,12 @@
     </key>
   </component>
   <component name="RunManager" selected="OpenOCD 下载并运行.OCD 2048">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+    <configuration name="2048.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="2048" TARGET_NAME="2048.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="2048" RUN_TARGET_NAME="2048.elf">
       <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="2048.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="2048" TARGET_NAME="2048.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="2048" RUN_TARGET_NAME="2048.elf">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -157,7 +148,8 @@
       <workItem from="1703215409371" duration="1880000" />
       <workItem from="1703217335250" duration="3374000" />
       <workItem from="1703250334053" duration="51000" />
-      <workItem from="1703296740060" duration="4004000" />
+      <workItem from="1703296740060" duration="6034000" />
+      <workItem from="1703310767469" duration="2290000" />
     </task>
     <task id="LOCAL-00001" summary="完成FreeRTOS移植以及LVGL移植，添加应用程序管理框架mooncake程序">
       <option name="closed" value="true" />
@@ -191,7 +183,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703299214220</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="增加2048游戏本体，以及增加两个任务的堆栈大小">
+      <option name="closed" value="true" />
+      <created>1703301074155</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1703301074155</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

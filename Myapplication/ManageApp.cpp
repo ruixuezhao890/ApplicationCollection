@@ -17,10 +17,8 @@
 #include "task.h"
 #include "Game2048_paker.h"
 #include "Game2048APP.h"
-Mooncake mooncake;
-static void DrawStatusbar(){
+DesktopInitiator mooncake;//todo 将图标绘制交给这个类！！
 
-}
 
  extern "C" void APPManagerUpData() {
     mooncake.init();
@@ -28,5 +26,19 @@ static void DrawStatusbar(){
     while (1){
         mooncake.update();
         vTaskDelay(5);
+    }
+}
+
+void DesktopInitiator::DrawAPPIcon() {
+   auto getAPPList=getInstalledAppList();
+    for (auto temp:getAPPList) {
+        if (temp->getAppName() != "") {
+            if (temp->getAppIcon() == nullptr) {
+
+            } else {
+                auto getNowScreen = lv_scr_act();
+                lv_obj_clean(getNowScreen);//清除所有部件
+            }
+        }
     }
 }
